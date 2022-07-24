@@ -3,10 +3,10 @@ module Sequencer #(
 ) (
     input wire clk,
     input wire able,
-    output wire[3:0] clk_count
+    output wire[31:0] clk_count
 );
 
-reg [3:0] counter = 0;
+reg [31:0] counter = 0;
 always @(clk) begin: update_counter
     if(able)begin
         if (counter == upper_bound)begin
