@@ -1,0 +1,144 @@
+# Compile of Node.v was successful.
+# Compile of Node_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Node_tb
+# vsim -gui work.Node_tb 
+# Start time: 12:49:54 on Jul 24,2022
+# Loading work.Node_tb
+# Loading work.Node
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step
+step
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+vsim -gui work.Node_tb
+# End time: 12:56:48 on Jul 24,2022, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 6
+# vsim -gui work.Node_tb 
+# Start time: 12:56:48 on Jul 24,2022
+# Loading work.Node_tb
+# Loading work.Node
+# Compile of Node.v was successful.
+# Compile of Node_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Node_tb
+# End time: 12:58:04 on Jul 24,2022, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 2
+# vsim -gui work.Node_tb 
+# Start time: 12:58:04 on Jul 24,2022
+# Loading work.Node_tb
+# Loading work.Node
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step
+step
+# Next activity is in 5 ps.
+step
+# Compile of Node.v was successful.
+# Compile of Node_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.Node_tb
+# End time: 13:04:21 on Jul 24,2022, Elapsed time: 0:06:17
+# Errors: 0, Warnings: 2
+# vsim -gui work.Node_tb 
+# Start time: 13:04:21 on Jul 24,2022
+# Loading work.Node_tb
+# Loading work.Node
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# Next activity is in 5 ps.
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# Next activity is in 5 ps.
+step
+step
+step
+# passed
+step
+step
+step
+step
+step
+step
+# Next activity is in 5 ps.
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# Next activity is in 5 ps.

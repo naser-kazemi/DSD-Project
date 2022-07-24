@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vNode
+Z0 !s110 1658651648
+!i10b 1
+!s100 9S;Djak9@j7Rd;aalG;3<2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I266e`6K^N72<[jNhXmU^40
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/uni/semister 4/DSD/project/phase3/DSD-Project
+w1658651636
+8Node.v
+FNode.v
+!i122 5
+L0 1 47
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1658651648.000000
+!s107 Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@node
+vNode_tb
+R0
+!i10b 1
+!s100 [;HZkOnzKQk0dJ>C8A12H0
+R1
+I_gL1?AHSE?oEmhH<;H[h73
+R2
+R3
+w1658651624
+8G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v
+FG:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v
+!i122 5
+L0 3 27
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
+R6
+!i113 1
+R7
+R8
+n@node_tb
