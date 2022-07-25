@@ -18,7 +18,7 @@ wire[31:0] input_2;
 reg[4:0] operation; 
 wire[31:0] result; 
 
-//floating_point_ALU alu(input_1, input_2, operation, result, , , , , , );
+real gravity = 0.3; 
 
 wire verlet_x, verlet_y, fix_const_x, fix_const_y;
 wire in_x_ff, in_y_ff;
@@ -34,10 +34,6 @@ assign input_2 = 32'h3e99999a;
 integer base_x = 200;   
 integer dist = 10;
 
-
-endmodule
-
-/*
 always @(posedge clk) begin: calc_verlet_x
     if (reset) begin
         x <= base_x;
@@ -46,9 +42,9 @@ always @(posedge clk) begin: calc_verlet_x
         py <= dist * node_id;
     end else if(verlet_state)begin
         px <= x; 
-        py <= y; 
-        x <= 2 * x - px; 
-        y <= result;
+        py <= y;
+        x <= 2 * x - px;
+        y <= 2 * y - py + gravity;
     end else if(fix_constraint_state)begin
         x <= x_fix_constraint;
         y <= y_fix_constraint;
@@ -59,6 +55,9 @@ always @(posedge clk) begin: calc_verlet_x
  
 end
 
+endmodule
+
+/*
     // grab sign bit 
     function set_sign;
     input [31:0] data;
