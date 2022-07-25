@@ -1,4 +1,4 @@
-module FixPointALU # (
+module FixedPointALU # (
     parameter Q = 12,
     parameter N = 32
 )
