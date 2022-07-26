@@ -26,11 +26,11 @@ r1
 !s85 0
 31
 Z5 !s108 1658849853.000000
-!s107 G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Abs.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Abs_tb.v|
-Z6 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Abs_tb.v|
+Z6 !s107 G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Abs.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Abs_tb.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Abs_tb.v|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
+Z8 o-work work
+Z9 tCvgOpt 0
 n@abs
 vAbs_tb
 R1
@@ -50,14 +50,60 @@ r1
 !s85 0
 31
 R5
-Z9 !s107 G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Abs.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Abs_tb.v|
 R6
-!i113 1
 R7
+!i113 1
 R8
+R9
 n@abs_tb
+vcircular_shift
+Z10 !s110 1658862966
+!i10b 1
+!s100 <66Mi2:kb?J:dl5:^kLMW3
+R2
+II9zQY05XP03=EJ056QJOj0
+R3
+R0
+w1658861982
+8G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\circular_shift.v
+FG:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\circular_shift.v
+!i122 175
+L0 1 10
+R4
+r1
+!s85 0
+31
+Z11 !s108 1658862966.000000
+Z12 !s107 G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\circular_shift.v|G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Sequencer.v|G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\FixedPointALU.v|G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Node.v|G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\core.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v|
+!i113 1
+R8
+R9
+vcore
+R10
+!i10b 1
+!s100 `=?>8;WWi<a1hDC7c6b9V0
+R2
+IY4eC=1@X8BV4omONCEzWP0
+R3
+R0
+w1658862797
+8G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\core.v
+FG:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\core.v
+!i122 175
+L0 5 60
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R8
+R9
 vCore
-Z10 !s110 1658681852
+!s110 1658681852
 !i10b 1
 !s100 BHI7JMNk<4lPozo^?6WEk2
 R2
@@ -73,36 +119,59 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1658681852.000000
-Z12 !s107 Sequencer.v|Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Core.v|
-Z13 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Core.v|
+!s108 1658681852.000000
+!s107 Sequencer.v|Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Core.v|
 !i113 1
-R7
 R8
+R9
 n@core
-vFixedPointALU
-!s110 1658752292
+vcore_tb
+R10
 !i10b 1
-!s100 UT`7CZb2cUhTUjBcEKPN^2
+!s100 <2GM=eYZ<H6cAEC6VF@V>0
 R2
-I5Hm3m3Li<`nFNj05TQ`af3
+IOfmeHR8BD`_Oz0L;U5a>E2
 R3
 R0
-w1658751041
-8G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v
-FG:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v
-!i122 30
-L0 1 59
+w1658862952
+8G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v
+FG:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v
+!i122 175
+L0 3 18
 R4
 r1
 !s85 0
 31
-!s108 1658752292.000000
+R11
+R12
+R13
+!i113 1
+R8
+R9
+vFixedPointALU
+Z14 !s110 1658862967
+!i10b 1
+!s100 m`n_Ud2bS5e4@d9AC5e?c2
+R2
+ICUG7z9;==8mJI^g44hbWz3
+R3
+R0
+w1658851479
+8G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v
+FG:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v
+!i122 177
+L0 1 58
+R4
+r1
+!s85 0
+31
+Z15 !s108 1658862967.000000
 !s107 G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v|
 !i113 1
-R7
 R8
+R9
 n@fixed@point@a@l@u
 vFixedPointALU_tb
 !s110 1658752287
@@ -125,8 +194,8 @@ r1
 !s107 G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\FixedPointALU.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU_tb.v|
 !i113 1
-R7
 R8
+R9
 n@fixed@point@a@l@u_tb
 vfloating_point_ALU
 !s110 1658681684
@@ -147,71 +216,71 @@ r1
 31
 !s108 1658681684.000000
 !s107 decimalToFloat.v|IEEE_base_ALU.v|Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
-Z14 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
 !i113 1
-R7
 R8
+R9
 nfloating_point_@a@l@u
 vNode
-R10
+R14
 !i10b 1
-!s100 jLFlaK:]`UzdR0T[>BVaR2
+!s100 B]3:Vc[obS^:G5k]R>J6:2
 R2
-IzkhT:CSI5<]`ODKnTidh]0
+Ig1nIncJ<dQGz3X=@`Tk9z0
 R3
 R0
-w1658681769
-8Node.v
-FNode.v
-!i122 24
-L0 3 36
+w1658858784
+8G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Node.v
+FG:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Node.v
+!i122 176
+L0 3 69
 R4
 r1
 !s85 0
 31
-R11
-R12
-R13
+R15
+Z16 !s107 G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\FixedPointALU.v|G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v|
 !i113 1
-R7
 R8
+R9
 n@node
 vNode_tb
-!s110 1658681823
+R14
 !i10b 1
-!s100 ^BC^KHXOgKVCM@<;b8W<:2
+!s100 [dWHR1IVlWa09=9JE8^XW0
 R2
-IK3`Z0D9ePdH7;RGn[0RD11
+I6f18WK31VR1N=2YhoV33L3
 R3
 R0
-w1658652665
-8G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v
-FG:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v
-!i122 21
+w1658851379
+8G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v
+FG:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v
+!i122 176
 L0 3 27
 R4
 r1
 !s85 0
 31
-!s108 1658681823.000000
-!s107 Node.v|G:/uni/semister 4/DSD/project/phase3/DSD-Project/Node_tb.v|
-R14
+R15
+R16
+R17
 !i113 1
-R7
 R8
+R9
 n@node_tb
 vSequencer
 R10
 !i10b 1
 !s100 ;m<I;8KYNd`Z59>ojg11C2
 R2
-IJK<]dAN47dVdUhMXX5HCb2
+I`JYPLPBZl@PD13HZPCZI51
 R3
 R0
-w1658681262
-8Sequencer.v
-FSequencer.v
-!i122 24
+w1658683028
+8G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Sequencer.v
+FG:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Sequencer.v
+!i122 175
 L0 1 22
 R4
 r1
@@ -221,6 +290,6 @@ R11
 R12
 R13
 !i113 1
-R7
 R8
+R9
 n@sequencer
