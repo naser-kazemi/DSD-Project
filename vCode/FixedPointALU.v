@@ -47,6 +47,10 @@ assign mult[N-2:0] = mult[N-1] ? quantized_result_2cmp : quantized_result; //If 
 
 
 
+
+
+
+
 assign out = op == 2'b00 ? sum : op == 2'b01 ? sub : mult;
 
 
