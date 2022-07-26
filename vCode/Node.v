@@ -26,8 +26,8 @@ assign y_pos = y;
 integer base_x = 200;   
 integer dist = 10;
 
-reg[31:0] fix_2 = 32'h00002000;; // fix this
-reg[31:0] fix_gravity = 32'h00000333;
+reg[31:0] fix_2 = 32'h00200000;
+reg[31:0] fix_gravity = 32'h0004cccd;
 reg[1:0] operation_1 = 2;
 reg[1:0] operation_2 = 1; 
 wire[31:0] x_mult_2_out; 
