@@ -27,9 +27,6 @@ initial begin
 
     #2
 
-    // B_mir[N - 1] = b[N-1];
-
-
     $display("result = %h", result);
 
     $finish;

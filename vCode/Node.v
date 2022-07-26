@@ -13,8 +13,6 @@ module Node #(
     output wire[31:0] y_pos
 );
 
-real gravity = 0.3; 
-
 wire verlet_x, verlet_y, fix_const_x, fix_const_y;
 wire in_x_ff, in_y_ff;
 
@@ -23,31 +21,38 @@ reg[31:0] x; reg [31:0] y; reg [31:0] px; reg [31:0] py;
 assign x_pos = x;
 assign y_pos = y;
 
-integer base_x = 200;   
-integer dist = 10;
+integer base_x = 32'h0c8000;   
+integer dist = 32'h00a000;
 
-reg[31:0] fix_2 = 32'h00200000;
-reg[31:0] fix_gravity = 32'h0004cccd;
-reg[1:0] operation_1 = 2;
-reg[1:0] operation_2 = 1; 
+reg[31:0] fix_2 = 32'h00002000 ;
+reg[31:0] fix_gravity = 32'h000004cd ;
+reg[1:0] operation_mult = 2;
+reg[1:0] operation_sub = 1; 
 wire[31:0] x_mult_2_out; 
 wire[31:0] y_mult_2_out;
 wire[31:0] next_x;
-wire [31:0] py_sub_gravity;
-wire[31:0] next_y; 
+wire[31:0] next_y;
+wire[31:0] reset_y;
+wire[31:0] py_sub_gravity;
 
-assign py_sub_gravity = py - gravity;
-FixedPointALU x_mult_2(x,fix_2, operation_1,x_mult_2_out);
-FixedPointALU twoX_sub_px(x_mult_2_out, px,operation_2, next_x);
-FixedPointALU y_mult_2(y, fix_2, operation_1,y_mult_2_out);
-FixedPointALU twoY_sub(y_mult_2_out, py_sub_gravity, operation_2,next_y);
+wire[31:0] node_id_wire; 
+assign node_id_wire = node_id << 12;
+
+
+assign py_sub_gravity = py - fix_gravity;
+FixedPointALU x_mult_2(x,fix_2, operation_mult, x_mult_2_out);
+FixedPointALU twoX_sub_px(x_mult_2_out, px, operation_sub, next_x);
+FixedPointALU y_mult_2(y, fix_2, operation_mult, y_mult_2_out);
+FixedPointALU twoY_sub(y_mult_2_out, py_sub_gravity, operation_sub, next_y);
+
+FixedPointALU y_reset(dist, node_id_wire, operation_mult, reset_y);
 
 always @(posedge clk) begin: calc_verlet_x
     if (reset) begin
         x <= base_x;
         px <= base_x; 
-        y <= dist * node_id;
-        py <= dist * node_id;
+        y <= reset_y;
+        py <= reset_y;
     end else if(verlet_state)begin
         px <= x; 
         py <= y;
