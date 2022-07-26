@@ -1,8 +1,10 @@
 module FixedPointALU # (
-    parameter Q = 20,
+    parameter Q = 12,
     parameter N = 32
 )
-(
+(   
+    input start,
+	input i_clk,
     input wire[N-1:0] a,
     input wire[N-1:0] b,
     input wire [1:0] op,
@@ -49,47 +51,79 @@ assign mult[N-2:0] = mult[N-1] ? quantized_result_2cmp : quantized_result; //If 
 
 // division
 
-reg [N-1:0] res;
+reg [2*N+Q-3:0]	reg_working_quotient;	//	Our working copy of the quotient
+reg [N-1:0] reg_quotient;				//	Final quotient
+reg [N-2+Q:0] reg_working_dividend;	//	Working copy of the dividend
+reg [2*N+Q-3:0]	reg_working_divisor;		// Working copy of the divisor
 
-assign div = res;
+reg [N-1:0] reg_count; 		//	This is obviously a lot bigger than it needs to be, as we only need 
+                                                //		count to N-1+Q but, computing that number of bits requires a 
+                                                //		logarithm (base 2), and I don't know how to do that in a 
+                                                //		way that will work for everyone
+                                        
+reg reg_done;			//	Computation completed flag
+reg	reg_sign;			//	The quotient's sign bit
+reg	reg_overflow;		//	Overflow flag
+
+initial reg_done = 1'b1;				//	Initial state is to not be doing anything
+initial reg_overflow = 1'b0;			//		And there should be no woverflow present
+initial reg_sign = 1'b0;				//		And the sign should be positive
+
+initial reg_working_quotient = 0;	
+initial reg_quotient = 0;				
+initial reg_working_dividend = 0;	
+initial reg_working_divisor = 0;		
+initial reg_count = 0; 		
 
 
-always @(a,b) begin
-	// both negative or both positive
-	if(a[N-1] == b[N-1]) begin						//	Since they have the same sign, absolute magnitude increases
-		res[N-2:0] = a[N-2:0] + b[N-2:0];		//		So we just add the two numbers
-		res[N-1] = a[N-1];							//		and set the sign appropriately...  Doesn't matter which one we use, 
-															//		they both have the same sign
-															//	Do the sign last, on the off-chance there was an overflow...  
-		end												//		Not doing any error checking on this...
-	//	one of them is negative...
-	else if(a[N-1] == 0 && b[N-1] == 1) begin		//	subtract a-b
-		if( a[N-2:0] > b[N-2:0] ) begin					//	if a is greater than b,
-			res[N-2:0] = a[N-2:0] - b[N-2:0];			//		then just subtract b from a
-			res[N-1] = 0;										//		and manually set the sign to positive
-			end
-		else begin												//	if a is less than b,
-			res[N-2:0] = b[N-2:0] - a[N-2:0];			//		we'll actually subtract a from b to avoid a 2's complement answer
-			if (res[N-2:0] == 0)
-				res[N-1] = 0;										//		I don't like negative zero....
-			else
-				res[N-1] = 1;										//		and manually set the sign to negative
-			end
-		end
-	else begin												//	subtract b-a (a negative, b positive)
-		if( a[N-2:0] > b[N-2:0] ) begin					//	if a is greater than b,
-			res[N-2:0] = a[N-2:0] - b[N-2:0];			//		we'll actually subtract b from a to avoid a 2's complement answer
-			if (res[N-2:0] == 0)
-				res[N-1] = 0;										//		I don't like negative zero....
-			else
-				res[N-1] = 1;										//		and manually set the sign to negative
-			end
-		else begin												//	if a is less than b,
-			res[N-2:0] = b[N-2:0] - a[N-2:0];			//		then just subtract a from b
-			res[N-1] = 0;										//		and manually set the sign to positive
-			end
-		end
-	end
+assign div[N-2:0] = reg_quotient[N-2:0];	//	The division results
+assign div[N-1] = reg_sign;						//	The sign of the quotient
+assign o_complete = reg_done;
+assign o_overflow = reg_overflow;
+
+always @( posedge i_clk ) begin
+    if(reg_done && start) begin										//	This is our startup condition
+        //  Need to check for a divide by zero right here, I think....
+        reg_done <= 1'b0;												//	We're not done			
+        reg_count <= N+Q-1;											//	Set the count
+        reg_working_quotient <= 0;									//	Clear out the quotient register
+        reg_working_dividend <= 0;									//	Clear out the dividend register 
+        reg_working_divisor <= 0;									//	Clear out the divisor register 
+        reg_overflow <= 1'b0;										//	Clear the overflow register
+
+        reg_working_dividend[N+Q-2:Q] <= a[N-2:0];				//	Left-align the dividend in its working register
+        reg_working_divisor[2*N+Q-3:N+Q-1] <= b[N-2:0];		//	Left-align the divisor into its working register
+
+        reg_sign <= a[N-1] ^ b[N-1];		//	Set the sign bit
+        end 
+    else if(!reg_done) begin
+        reg_working_divisor <= reg_working_divisor >> 1;	//	Right shift the divisor (that is, divide it by two - aka reduce the divisor)
+        reg_count <= reg_count - 1;								//	Decrement the count
+
+        //	If the dividend is greater than the divisor
+        if(reg_working_dividend >= reg_working_divisor) begin
+            reg_working_quotient[reg_count] <= 1'b1;										//	Set the quotient bit
+            reg_working_dividend <= reg_working_dividend - reg_working_divisor;	//		and subtract the divisor from the dividend
+            end
+
+        //stop condition
+        if(reg_count == 0) begin
+            reg_done <= 1'b1;										//	If we're done, it's time to tell the calling process
+            reg_quotient <= reg_working_quotient;			//	Move in our working copy to the outside world
+            if (reg_working_quotient[2*N+Q-3:N]>0)
+                reg_overflow <= 1'b1;
+                end
+        else
+            reg_count <= reg_count - 1;	
+        end
+    end
+
+
+
+
+
+
+
 
 
 

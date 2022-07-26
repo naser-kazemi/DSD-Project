@@ -13,6 +13,27 @@ module EnforceConstraints (
 );
 
 
+wire [31:0] dxu, dyu, du;
+
+reg [1:0] op = 2'b01;
+
+FixedPointALU sub_xu(x_pos, up_x_pos, op, dxu);
+FixedPointALU sub_yu(y_pos, up_y_pos, op, dyu);
+
+
+wire [31:0] dxd, dyd, dd;
+
+assign dxd = x_pos - down_x_pos;
+assign dyd = y_pos - down_y_pos;
+
+
+// du and dx
+
+
+
+
+
+
 
 
 
