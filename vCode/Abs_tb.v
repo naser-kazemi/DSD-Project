@@ -10,6 +10,8 @@ Abs abs(neg_2, result);
         #2
         if(result == 32'h00002000 ) begin
             $display("passed"); 
+        end else begin
+            $display("failed");
         end
         end
 endmodule

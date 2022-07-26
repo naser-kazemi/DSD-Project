@@ -1,0 +1,69 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_00000199d749ae10 .scope module, "Abs_tb" "Abs_tb" 2 3;
+ .timescale 0 0;
+v00000199d74e3ff0_0 .var "neg_2", 31 0;
+v00000199d74e39b0_0 .net "result", 31 0, v00000199d749b950_0;  1 drivers
+S_00000199d7496990 .scope module, "abs" "Abs" 2 7, 3 1 0, S_00000199d749ae10;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "number";
+    .port_info 1 /OUTPUT 32 "abs_number";
+L_00000199d7529f60 .functor NOT 1, L_00000199d74e44f0, C4<0>, C4<0>, C4<0>;
+L_00000199d749ba90 .functor NOT 31, L_00000199d74e41d0, C4<0000000000000000000000000000000>, C4<0000000000000000000000000000000>, C4<0000000000000000000000000000000>;
+v00000199d7497130_0 .net *"_ivl_1", 0 0, L_00000199d74e44f0;  1 drivers
+v00000199d749afa0_0 .net *"_ivl_10", 30 0, L_00000199d74e35f0;  1 drivers
+v00000199d7496b20_0 .net *"_ivl_12", 31 0, L_00000199d74e3870;  1 drivers
+v00000199d7496bc0_0 .net *"_ivl_2", 0 0, L_00000199d7529f60;  1 drivers
+v00000199d7496c60_0 .net *"_ivl_5", 30 0, L_00000199d74e41d0;  1 drivers
+v00000199d7496d00_0 .net *"_ivl_6", 30 0, L_00000199d749ba90;  1 drivers
+L_00000199d7529fd8 .functor BUFT 1, C4<0000000000000000000000000000001>, C4<0>, C4<0>, C4<0>;
+v00000199d7496da0_0 .net/2u *"_ivl_8", 30 0, L_00000199d7529fd8;  1 drivers
+v00000199d749b950_0 .var "abs_number", 31 0;
+v00000199d749b9f0_0 .net "number", 31 0, v00000199d74e3ff0_0;  1 drivers
+v00000199d74e3c30_0 .net "number_2cmp", 0 0, L_00000199d74e4090;  1 drivers
+E_00000199d749d070 .event anyedge, v00000199d749b9f0_0, v00000199d74e3c30_0;
+L_00000199d74e44f0 .part v00000199d74e3ff0_0, 31, 1;
+L_00000199d74e41d0 .part v00000199d74e3ff0_0, 0, 31;
+L_00000199d74e35f0 .arith/sum 31, L_00000199d749ba90, L_00000199d7529fd8;
+L_00000199d74e3870 .concat [ 31 1 0 0], L_00000199d74e35f0, L_00000199d7529f60;
+L_00000199d74e4090 .part L_00000199d74e3870, 0, 1;
+    .scope S_00000199d7496990;
+T_0 ;
+    %wait E_00000199d749d070;
+    %load/vec4 v00000199d749b9f0_0;
+    %parti/s 1, 31, 6;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.0, 8;
+    %load/vec4 v00000199d74e3c30_0;
+    %pad/u 32;
+    %store/vec4 v00000199d749b950_0, 0, 32;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v00000199d749b9f0_0;
+    %store/vec4 v00000199d749b950_0, 0, 32;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0, $push;
+    .scope S_00000199d749ae10;
+T_1 ;
+    %delay 2, 0;
+    %load/vec4 v00000199d74e39b0_0;
+    %cmpi/e 8192, 0, 32;
+    %jmp/0xz  T_1.0, 4;
+    %vpi_call 2 12 "$display", "passed" {0 0 0};
+T_1.0 ;
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "Abs_tb.v";
+    "./Abs.v";

@@ -10,7 +10,8 @@ module Node #(
     input wire[31:0] x_fix_constraint, 
     input wire[31:0] y_fix_constraint,
     output wire[31:0] x_pos,
-    output wire[31:0] y_pos
+    output wire[31:0] y_pos,
+    output reg finish
 );
 
 real gravity = 0.3; 
@@ -26,8 +27,8 @@ assign y_pos = y;
 integer base_x = 200;   
 integer dist = 10;
 
-reg[31:0] fix_2 = 32'h00200000;
-reg[31:0] fix_gravity = 32'h0004cccd;
+reg[31:0] fix_2 = 32'h00002000 ;
+reg[31:0] fix_gravity = 32'h000004cd ;
 reg[1:0] operation_1 = 2;
 reg[1:0] operation_2 = 1; 
 wire[31:0] x_mult_2_out; 

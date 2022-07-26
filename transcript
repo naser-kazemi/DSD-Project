@@ -99,3 +99,25 @@ step -over
 step -over
 # result = 40000000
 # Nothing left to do.
+# Compile of Abs.v was successful.
+# Compile of Abs_tb.v was successful.
+vsim work.Abs_tb
+# End time: 20:07:54 on Jul 26,2022, Elapsed time: 27:06:17
+# Errors: 0, Warnings: 6
+# vsim work.Abs_tb 
+# Start time: 20:07:54 on Jul 26,2022
+# Loading work.Abs_tb
+# Loading work.Abs
+step -over
+step -over
+step -over
+# Next activity is in 2 ps.
+step -over
+step -over
+step -over
+# failed
+# Nothing left to do.
+step -over
+# Nothing left to do.
+step -over
+# Nothing left to do.
