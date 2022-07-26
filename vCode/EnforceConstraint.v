@@ -1,9 +1,7 @@
-`include "FixedPointALU.v"
-`include "Abs.v"
 `include "Div.v"
 
 
-module EnforceConstraints (
+module EnforceConstraint (
     input wire[31:0] up_x_pos,
     input wire[31:0] up_y_pos,
     input wire[31:0] x_pos,
@@ -54,6 +52,7 @@ Div div4(dyd, dd, div_yd);
 
 wire [31:0] dots_dist;
 //TODO assign value to dots_dist
+assign dots_dist = 32'h0000f000;
 
 wire [31:0] du_dist, dd_dist;
 FixedPointALU sub_du(du, dots_dist, sub_op, du_dist);
@@ -73,14 +72,15 @@ FixedPointALU sum1(mult_xu, mult_xd, add_op, sum_x);
 FixedPointALU sum2(mult_yu, mult_yd, add_op, sum_y);
 
 
-wire [31:0] sum_x_by_4, sum_y_by_4;
-assign sum_x_by_4 = sum_x >> 2;
-assign sum_y_by_4 = sum_y >> 2;
+wire [31:0] sum_x_by_4, sum_y_by_4, temp_sum_x, temp_sum_y;
+assign temp_sum_x = sum_x >>> 2;
+assign temp_sum_y = sum_y >>> 2;
+assign sum_x_by_4 = {sum_x[31:30], temp_sum_x[29:0]};
+assign sum_y_by_4 = {sum_y[31:30], temp_sum_y[29:0]};
 
 
 FixedPointALU new_x(x_pos, sum_x_by_4, sub_op, x_enforced_constraints);
 FixedPointALU new_y(y_pos, sum_y_by_4, sub_op, y_enforced_constraints);
-
 
 
 
