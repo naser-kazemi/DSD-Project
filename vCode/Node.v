@@ -26,7 +26,7 @@ assign y_pos = y;
 integer base_x = 200;   
 integer dist = 10;
 
-reg[31:0] fix_2 = 2; // fix this
+reg[31:0] fix_2 = 32'h00200000; // fix this
 reg[1:0] operation_1 = 2;
 reg[1:0] operation_2 = 1; 
 wire[31:0] x_mult_2_out; 

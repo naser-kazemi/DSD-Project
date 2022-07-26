@@ -3,7 +3,7 @@
 module FixedPointALU_tb ();
 
 parameter N = 32;
-parameter Q = 12;
+parameter Q = 20;
 
 
 reg [31:0] a, b;
@@ -14,6 +14,7 @@ reg [1:0] op;
 FixedPointALU fp_alu(a, b, op, result);
 
 
+
 initial begin
 
     a = 32'h003851ec;
@@ -21,6 +22,10 @@ initial begin
     op = 2'b10;
 
     #2
+
+    // B_mir[N - 1] = b[N-1];
+
+
     $display("result = %h", result);
 
     
