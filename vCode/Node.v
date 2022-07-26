@@ -49,17 +49,19 @@ always @(posedge clk) begin: calc_verlet_x
         px <= base_x; 
         y <= dist * node_id;
         py <= dist * node_id;
+        finish <= 1; 
     end else if(verlet_state)begin
         px <= x; 
         py <= y;
         x <= next_x;
         y <= next_y;
+        finish <= 1;
     end else if(fix_constraint_state)begin
         x <= x_fix_constraint;
         y <= y_fix_constraint;
+        finish <= 1;
     end else begin
-        x <= x; 
-        y <= y;
+        finish <= 0;
     end
  
 end

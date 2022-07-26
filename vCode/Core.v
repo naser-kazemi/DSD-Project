@@ -14,6 +14,7 @@ reg [31:0]  y_enforced_constraint[node_contains - 1:0];
 wire [31:0] x_pos[node_contains - 1:0]; 
 wire [31:0] y_pos[node_contains - 1:0];
 wire [31:0] clk_count;
+wire [node_contains -1:0] finish_signal;
 Sequencer #(node_contains - 1) seq (clk, !reset, clk_count); 
 
 
@@ -29,7 +30,8 @@ generate
             x_enforced_constraint[i], 
             y_enforced_constraint[i],
             x_pos[i],
-            y_pos[i]
+            y_pos[i],
+            finish_signal[i]
             );
     end
 endgenerate
