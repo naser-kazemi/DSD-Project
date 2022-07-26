@@ -1,5 +1,5 @@
 module FixedPointALU # (
-    parameter Q = 12,
+    parameter Q = 20,
     parameter N = 32
 )
 (

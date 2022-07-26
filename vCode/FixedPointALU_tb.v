@@ -13,8 +13,8 @@ FixedPointALU fp_alu(x, y, op, result);
 
 initial begin
 
-    x = 32'h00280000;
-    y = 32'h00366666;
+    x = 32'h00200000;
+    y = 32'h00200000;
     op = 2'b10;
 
     #2
