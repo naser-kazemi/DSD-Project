@@ -1,5 +1,5 @@
-//`include "IEEE_base_ALU.v"
-//`include "decimalToFloat.v"
+`include "FixedPointALU.v"
+
 module Node #(
     parameter node_id = 1
 ) (
@@ -13,11 +13,6 @@ module Node #(
     output wire[31:0] y_pos
 );
 
-wire[31:0] input_1; 
-wire[31:0] input_2; 
-reg[4:0] operation; 
-wire[31:0] result; 
-
 real gravity = 0.3; 
 
 wire verlet_x, verlet_y, fix_const_x, fix_const_y;
@@ -28,11 +23,17 @@ reg[31:0] x; reg [31:0] y; reg [31:0] px; reg [31:0] py;
 assign x_pos = x;
 assign y_pos = y;
 
-
-assign input_1 = 2 * y + py; 
-assign input_2 = 32'h3e99999a; 
 integer base_x = 200;   
 integer dist = 10;
+
+reg[31:0] fix_2 = 2; // fix this
+reg[1:0] operation_1 = 2;
+reg[1:0] operation_2 = 1; 
+wire[31:0] x_mult_2_out; 
+wire[31:0] next_x;
+FixedPointALU x_mult_2(x,fix_2, operation_1,x_mult_2_out );
+FixedPointALU twoX_sub_px(x_mult_2_out, py,operation_2, next_x );
+
 
 always @(posedge clk) begin: calc_verlet_x
     if (reset) begin
@@ -43,7 +44,7 @@ always @(posedge clk) begin: calc_verlet_x
     end else if(verlet_state)begin
         px <= x; 
         py <= y;
-        x <= 2 * x - px;
+        x <= next_x;
         y <= 2 * y - py + gravity;
     end else if(fix_constraint_state)begin
         x <= x_fix_constraint;
