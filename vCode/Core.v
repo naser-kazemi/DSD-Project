@@ -9,8 +9,8 @@ module Core #(
 
 wire[node_contains -1:0] verlet_state;
 wire fix_constrante_state[node_contains -1:0]; 
-reg [31:0] x_fix_constraint[node_contains - 1:0]; 
-reg [31:0] y_fix_constraint[node_contains - 1:0];
+wire [31:0] x_enforced_constraint[node_contains - 1:0]; 
+reg [31:0]  y_enforced_constraint[node_contains - 1:0];
 wire [31:0] x_pos[node_contains - 1:0]; 
 wire [31:0] y_pos[node_contains - 1:0];
 wire [31:0] clk_count;
@@ -26,8 +26,8 @@ generate
             reset,
             verlet_state[i],
             fix_constrante_state[i],
-            x_fix_constraint[i], 
-            y_fix_constraint[i],
+            x_enforced_constraint[i], 
+            y_enforced_constraint[i],
             x_pos[i],
             y_pos[i]
             );

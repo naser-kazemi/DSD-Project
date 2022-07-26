@@ -30,10 +30,11 @@ reg[31:0] fix_2 = 32'h00200000; // fix this
 reg[1:0] operation_1 = 2;
 reg[1:0] operation_2 = 1; 
 wire[31:0] x_mult_2_out; 
+wire[31:0] y_mult_2_out;
 wire[31:0] next_x;
-FixedPointALU x_mult_2(x,fix_2, operation_1,x_mult_2_out );
-FixedPointALU twoX_sub_px(x_mult_2_out, py,operation_2, next_x );
-
+FixedPointALU x_mult_2(x,fix_2, operation_1,x_mult_2_out);
+FixedPointALU twoX_sub_px(x_mult_2_out, py,operation_2, next_x);
+FixedPointALU y_mult_2(y, fix_2, operation_1,y_mult_2_out);
 
 always @(posedge clk) begin: calc_verlet_x
     if (reset) begin
