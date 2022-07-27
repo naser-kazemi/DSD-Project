@@ -58,3 +58,5056 @@ vsim work.core_tb
 # Compile of Node_tb.v was successful.
 # Compile of FixedPointALU.v was successful.
 # 5 compiles, 0 failed with no errors.
+# Compile of core.v was successful.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# vsim work.core_tb 
+# Start time: 11:36:48 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'c0'.  Expected 6, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /core_tb/c0 File: G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v Line: 9
+# ** Warning: (vsim-3722) G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(9): [TFMPC] - Missing connection for port 'prev_core_last_x'.
+# ** Warning: (vsim-3722) G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(9): [TFMPC] - Missing connection for port 'prev_core_last_y'.
+# ** Warning: (vsim-3722) G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(9): [TFMPC] - Missing connection for port 'next_core_first_x'.
+# ** Warning: (vsim-3722) G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(9): [TFMPC] - Missing connection for port 'next_core_first_y'.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:14:10 on Jul 27,2022, Elapsed time: 0:37:22
+# Errors: 0, Warnings: 11
+# vsim work.core_tb 
+# Start time: 12:14:10 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    x
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:17:36 on Jul 27,2022, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:17:36 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# verlet signals :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :   64
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  128
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  256
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  512
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    1
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 00000e67 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:21:59 on Jul 27,2022, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:21:59 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# verlet signals :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :   64
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  128
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  256
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  512
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    1
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 00000e67 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+vsim work.core_tb
+# End time: 12:26:32 on Jul 27,2022, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:26:32 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# verlet signals :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :   64
+# node           0 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  128
+# node           0 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  256
+# node           0 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  512
+# node           0 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    1
+# node           0 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : zzzzzzzz
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v failed with 1 errors.
+# Compile of Node.v was successful.
+# Compile of core_tb.v failed with 1 errors.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 2 failed with 2 errors.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:30:20 on Jul 27,2022, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 4
+# vsim work.core_tb 
+# Start time: 12:30:20 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# verlet signals :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :   64
+# node           0 
+#  y : zzzzzzzz 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  128
+# node           0 
+#  y : zzzzzzzz 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  256
+# node           0 
+#  y : zzzzzzzz 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  512
+# node           0 
+#  y : zzzzzzzz 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    1
+# node           0 
+#  y : zzzzzzzz 
+#  x : zzzzzzzz
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:49:24 on Jul 27,2022, Elapsed time: 0:19:04
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:49:25 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# verlet signals :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# verlet signals :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :   64
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  128
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  256
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :  512
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# verlet signals :    1
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# verlet signals :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : 000c8000
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:52:46 on Jul 27,2022, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:52:46 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XX000 
+# **************************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0000a000 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 00014000 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# y : 000c8c61 
+#  x : 0002839a 
+# **************************
+# control signal :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# y : 000c8e03 
+#  x : 0000a134 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 00014000 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# y : 000c8c61 
+#  x : 0002839a 
+# **************************
+# control signal :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8e03 
+#  x : 0000a39a 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# y : 000c8e03 
+#  x : 00014134 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# y : 000c8c61 
+#  x : 0002839a 
+# **************************
+# control signal :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8e03 
+#  x : 0001439a 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# y : 000c8e03 
+#  x : 0001e134 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# y : 000c8c61 
+#  x : 0002839a 
+# **************************
+# control signal :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8e03 
+#  x : 0001e39a 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# y : 000c8cca 
+#  x : 000284cd 
+# **************************
+# control signal :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XX4cd 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8cca 
+#  x : 00028734 
+# **************************
+# control signal :   64
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8000 
+#  x : 000XX4cd 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8cca 
+#  x : 00028734 
+# **************************
+# control signal :  128
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8d9b 
+#  x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8cca 
+#  x : 00028734 
+# **************************
+# control signal :  256
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# y : 000c8cca 
+#  x : 00028734 
+# **************************
+# control signal :  512
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# control signal :    1
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# control signal :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : 000c8000
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# y : xxxxxxxx 
+#  x : xxxxxxxx 
+# **************************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:53:47 on Jul 27,2022, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:53:47 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XX000 
+# **************************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a000 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 00014000 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0000a134 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 00014000 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0000a39a 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 00014134 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0001439a 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0001e134 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0001e39a 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 000284cd 
+# **************************
+# control signal :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XX4cd 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :   64
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XX4cd 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :  128
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :  256
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :  512
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# control signal :    1
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# control signal :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:55:04 on Jul 27,2022, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:55:04 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XX000 
+# **************************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a000 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 00014000 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0000a134 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 00014000 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0000a39a 
+# **************************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 00014134 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e000 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0001439a 
+# **************************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0001e134 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8c61 
+#  new_x : 0002839a 
+# **************************
+# control signal :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XXXXX 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8e03 
+#  new_x : 0001e39a 
+# **************************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 000284cd 
+# **************************
+# control signal :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XX4cd 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0000a4cd 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :   64
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8000 
+#  new_x : 000XX4cd 
+# **************************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 000144cd 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :  128
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8d9b 
+#  new_x : 0001e4cd 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :  256
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000c8cca 
+#  new_x : 00028734 
+# **************************
+# control signal :  512
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# control signal :    1
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# control signal :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx 
+# **************************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 12:58:11 on Jul 27,2022, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 12:58:11 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 00000000 
+#  x : 000c8000
+# ***********************
+# new_y : 000XX000 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a000 
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014000 
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000 
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a 
+#  new_x : 000c8c61
+# ***********************
+# control signal :    2
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a134 
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014000 
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000 
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a 
+#  new_x : 000c8c61
+# ***********************
+# control signal :    4
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a39a 
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014134 
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000 
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a 
+#  new_x : 000c8c61
+# ***********************
+# control signal :    8
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001439a 
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e134 
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a 
+#  new_x : 000c8c61
+# ***********************
+# control signal :   16
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e39a 
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd 
+#  new_x : 000c8cca
+# ***********************
+# control signal :   32
+# node           0 
+#  y : 000004cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XX4cd 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 00028734 
+#  new_x : 000c8cca
+# ***********************
+# control signal :   64
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XX4cd 
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 00028734 
+#  new_x : 000c8cca
+# ***********************
+# control signal :  128
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd 
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 00028734 
+#  new_x : 000c8cca
+# ***********************
+# control signal :  256
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 00028734 
+#  new_x : 000c8cca
+# ***********************
+# control signal :  512
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# control signal :    1
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# control signal :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx 
+#  new_x : xxxxxxxx
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 13:05:28 on Jul 27,2022, Elapsed time: 0:07:17
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 13:05:28 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 000XX000
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014000
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    2
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014134
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    4
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001439a
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e134
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    8
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e39a
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028134
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :   16
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XXXXX
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fccd
+#  new_x : 000c9a64
+# ***********************
+# control signal :   32
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XX4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :   64
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000XX4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  128
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  256
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  512
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# control signal :    1
+# node           0 
+#  y : 000XX4cd 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# control signal :    2
+# node           0 
+#  y : xxxxxxxx 
+#  x : 000c8000
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           1 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           2 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           3 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# node           4 
+#  y : xxxxxxxx 
+#  x : xxxxxxxx
+# ***********************
+# new_y : xxxxxxxx
+#  new_x : xxxxxxxx
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 13:09:09 on Jul 27,2022, Elapsed time: 0:03:41
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 13:09:09 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a000
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014000
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    2
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014134
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    4
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001439a
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e134
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    8
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e39a
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028134
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :   16
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fccd
+#  new_x : 000c9a64
+# ***********************
+# control signal :   32
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :   64
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  128
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c98e5
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e167
+#  new_x : 000c8129
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  256
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000143aa
+#  new_x : 000c9949
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001e048
+#  new_x : 000c818b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000283aa
+#  new_x : 000c8064
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  512
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000143aa
+#  new_x : 000c9949
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dfe6
+#  new_x : 000c81ac
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 0002834a
+#  new_x : 000c8085
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fed2
+#  new_x : 000c8ceb
+# ***********************
+# control signal :    1
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000143aa
+#  new_x : 000c9949
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dfe6
+#  new_x : 000c81ac
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 00027cd4
+#  new_x : 000c70fb
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ec06
+#  new_x : 000ca50d
+# ***********************
+# control signal :    2
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 00014610
+#  new_x : 000c9a1a
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dfe6
+#  new_x : 000c81ac
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 00027cd4
+#  new_x : 000c70fb
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ec06
+#  new_x : 000ca50d
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 130 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.core_tb
+# End time: 13:18:34 on Jul 27,2022, Elapsed time: 0:09:25
+# Errors: 0, Warnings: 2
+# vsim work.core_tb 
+# Start time: 13:18:34 on Jul 27,2022
+# Loading work.core_tb
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.EnforceConstraint
+# Loading work.Abs
+# Loading work.Div
+run -all
+# control signal :    1
+# node           0 
+#  y : 0000a000 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a000
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014000
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    2
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014000 
+#  x : 000c8000
+# ***********************
+# new_y : 00014134
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e000
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    4
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001439a
+#  new_x : 000c8e03
+# ***********************
+# node           2 
+#  y : 0001e000 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e134
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028000
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :    8
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e39a
+#  new_x : 000c8e03
+# ***********************
+# node           3 
+#  y : 00028000 
+#  x : 000c8000
+# ***********************
+# new_y : 00028134
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fb9a
+#  new_x : 000c99fc
+# ***********************
+# control signal :   16
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002839a
+#  new_x : 000c8e03
+# ***********************
+# node           4 
+#  y : 00032000 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fccd
+#  new_x : 000c9a64
+# ***********************
+# control signal :   32
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :   64
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c8d9b
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e4cd
+#  new_x : 000c8d9b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  128
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000144cd
+#  new_x : 000c98e5
+# ***********************
+# node           2 
+#  y : 0001e4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0001e167
+#  new_x : 000c8129
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000284cd
+#  new_x : 000c8d9b
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  256
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000143aa
+#  new_x : 000c9949
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001e048
+#  new_x : 000c818b
+# ***********************
+# node           3 
+#  y : 000284cd 
+#  x : 000c8000
+# ***********************
+# new_y : 000283aa
+#  new_x : 000c8064
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002ff34
+#  new_x : 000c9a64
+# ***********************
+# control signal :  512
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000143aa
+#  new_x : 000c9949
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dfe6
+#  new_x : 000c81ac
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 0002834a
+#  new_x : 000c8085
+# ***********************
+# node           4 
+#  y : 000324cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0002fed2
+#  new_x : 000c8ceb
+# ***********************
+# control signal :    1
+# node           0 
+#  y : 0000a4cd 
+#  x : 000c8000
+# ***********************
+# new_y : 0000a4cd
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 000143aa
+#  new_x : 000c9949
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dfe6
+#  new_x : 000c81ac
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 00027cd4
+#  new_x : 000c70fb
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ec06
+#  new_x : 000ca50d
+# ***********************
+# control signal :    2
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 000144cd 
+#  x : 000c8d9b
+# ***********************
+# new_y : 00014610
+#  new_x : 000c9a1a
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dfe6
+#  new_x : 000c81ac
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 00027cd4
+#  new_x : 000c70fb
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ec06
+#  new_x : 000ca50d
+# ***********************
+# control signal :    4
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014e67 
+#  x : 000c9b36
+# ***********************
+# new_y : 00014add
+#  new_x : 000ca564
+# ***********************
+# node           2 
+#  y : 0001e167 
+#  x : 000c8129
+# ***********************
+# new_y : 0001dee6
+#  new_x : 000c8204
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 00027cd4
+#  new_x : 000c70fb
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ec06
+#  new_x : 000ca50d
+# ***********************
+# control signal :    8
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014e67 
+#  x : 000c9b36
+# ***********************
+# new_y : 00014c20
+#  new_x : 000ca4f6
+# ***********************
+# node           2 
+#  y : 0001e79b 
+#  x : 000c8252
+# ***********************
+# new_y : 0001e295
+#  new_x : 000c8408
+# ***********************
+# node           3 
+#  y : 000283aa 
+#  x : 000c8064
+# ***********************
+# new_y : 00027e17
+#  new_x : 000c708d
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ec06
+#  new_x : 000ca50d
+# ***********************
+# control signal :   16
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014e67 
+#  x : 000c9b36
+# ***********************
+# new_y : 00014c20
+#  new_x : 000ca4f6
+# ***********************
+# node           2 
+#  y : 0001e79b 
+#  x : 000c8252
+# ***********************
+# new_y : 0001e499
+#  new_x : 000c8358
+# ***********************
+# node           3 
+#  y : 00028c21 
+#  x : 000c80c8
+# ***********************
+# new_y : 00028252
+#  new_x : 000c70e0
+# ***********************
+# node           4 
+#  y : 0002fed2 
+#  x : 000c8ceb
+# ***********************
+# new_y : 0002ee3d
+#  new_x : 000ca5ce
+# ***********************
+# control signal :   32
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014e67 
+#  x : 000c9b36
+# ***********************
+# new_y : 00014c20
+#  new_x : 000ca4f6
+# ***********************
+# node           2 
+#  y : 0001e79b 
+#  x : 000c8252
+# ***********************
+# new_y : 0001e499
+#  new_x : 000c8358
+# ***********************
+# node           3 
+#  y : 00028c21 
+#  x : 000c80c8
+# ***********************
+# new_y : 00027e75
+#  new_x : 000c6f8f
+# ***********************
+# node           4 
+#  y : 0002e271 
+#  x : 000c99d6
+# ***********************
+# new_y : 0002e00d
+#  new_x : 000cb086
+# ***********************
+# control signal :   64
+# node           0 
+#  y : 0000ae67 
+#  x : 000c8000
+# ***********************
+# new_y : 0000ae67
+#  new_x : 000c8000
+# ***********************
+# node           1 
+#  y : 00014e67 
+#  x : 000c9b36
+# ***********************
+# new_y : 00014c20
+#  new_x : 000ca4f6
+# ***********************
+# node           2 
+#  y : 0001e79b 
+#  x : 000c8252
+# ***********************
+# new_y : 0001e499
+#  new_x : 000c8358
+# ***********************
+# node           3 
+#  y : 00028c21 
+#  x : 000c80c8
+# ***********************
+# new_y : 00027e75
+#  new_x : 000c6f8f
+# ***********************
+# node           4 
+#  y : 0002e271 
+#  x : 000c99d6
+# ***********************
+# new_y : 0002e00d
+#  new_x : 000cb086
+# ***********************
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
+#    Time: 180 ps  Iteration: 0  Instance: /core_tb
+# Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31

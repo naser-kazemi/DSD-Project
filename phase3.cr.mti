@@ -1,31 +1,16 @@
-{G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v} {2 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v}
+{G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module FixedPointALU
--- Compiling module Node
--- Compiling module circular_shift
-** Warning: ** while parsing file included at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(1)
-** while parsing file included at G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\core.v(3)
-** while parsing file included at G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\EnforceConstraint.v(1)
-** while parsing file included at G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\Div.v(1)
-** at G:\uni\semister 4\DSD\project\phase3\DSD-Project\vCode\FixedPointALU.v(1): (vlog-2275) Existing module 'FixedPointALU' will be overwritten.
 -- Compiling module FixedPointALU
 -- Compiling module Abs
 -- Compiling module Div
 -- Compiling module EnforceConstraint
+-- Compiling module Node
+-- Compiling module circular_shift
 -- Compiling module core
 -- Compiling module core_tb
 
 Top level modules:
 	core_tb
-
-} {} {}} {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module FixedPointALU
--- Compiling module Node
--- Compiling module Node_tb
-
-Top level modules:
-	Node_tb
 
 } {} {}} {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/FixedPointALU.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
