@@ -123,13 +123,14 @@ always @(posedge clk) begin
     for(j = 0; j < node_contains; j = j + 1)begin
         $display("core:%d | node:%d -> y: %h, x: %h", core_id, j, y_pos[j], x_pos[j]);
         if(j == 0 && core_id == 2)begin
-            $display("|prev : x: %h, y: %h", prev_core_last_x, prev_core_last_y);
+            $display("|prev : x: %h, y: %h\n x : %h, y: %h\n up_x : %h up_y : %H", prev_core_last_x,
+            prev_core_last_y, x_pos[j], y_pos[j], x_pos[j + 1], y_pos[j + 1]);
+            $display("out x : %h, out y : %h", new_x_pos[j], new_y_pos[j]);
+            $display("is last node of last core : %d", is_last_node_of_last_core[j]);
         end
     end
-  
-  if (control_signal[5])begin
-        $display("new x : %h, y: %h", new_x_pos[4], new_y_pos[4]);
-  end
+    
+
     end else begin
         control_signal_reg <= 1;
     end
