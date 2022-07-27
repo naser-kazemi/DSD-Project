@@ -121,11 +121,12 @@ always @(posedge clk) begin
     // $display("control signal : %d", control_signal);
 
     for(j = 0; j < node_contains; j = j + 1)begin
-        $display("node %d \n y : %h \n x : %h\n***********************", j, y_pos[j], x_pos[j]);
-        $display("new_y : %h\nnew_x : %h\n***********************", new_y_pos[j], new_x_pos[j]);
+        $display("core:%d | node:%d -> y: %h, x: %h", core_id, j, y_pos[j], x_pos[j]);
     end
+  
     end else begin
         control_signal_reg <= 1;
+        $display("way down we go");
     end
 end
 
