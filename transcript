@@ -5111,3 +5111,2573 @@ run -all
 # ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v(31)
 #    Time: 180 ps  Iteration: 0  Instance: /core_tb
 # Break in Module core_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v line 31
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:04:19 on Jul 27,2022, Elapsed time: 8:45:45
+# Errors: 0, Warnings: 6
+# vsim work.rope_tb 
+# Start time: 22:04:19 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(26)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 26
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:07:33 on Jul 27,2022, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 22:07:33 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(26)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 26
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:09:55 on Jul 27,2022, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 4
+# vsim work.rope_tb 
+# Start time: 22:09:55 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00027edd, x: 000c8064
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00027edd, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:15:06 on Jul 27,2022, Elapsed time: 0:05:11
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 22:15:06 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: 00014000, x: 000c8000
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: 00014000, x: 000c8000
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: 00014000, x: 000c8000
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 00028000, x: 000c8000
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 00028000, x: 000c8000
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 00028000, x: 000c8000
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00027edd, x: 000c8064
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 00032000, x: 000c8000
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 00032000, x: 000c8000
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 00032000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00027edd, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 0000X000, x: 000cXXXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:28:49 on Jul 27,2022, Elapsed time: 0:13:43
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 22:28:49 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#      24576
+#      28672
+#      32768
+#      36864
+#      40960
+#      45056
+#      49152
+#      53248
+#      57344
+#      61440
+#      65536
+#      69632
+#      73728
+#      77824
+#      81920
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8XXX
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8XXX
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00027edd, x: 000c8064
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001dc9a, x: 000c8129
+# core:          1 | node:          3 -> y: 00027edd, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:34:18 on Jul 27,2022, Elapsed time: 0:05:29
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 22:34:18 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#      24576
+#      28672
+#      32768
+#      36864
+#      40960
+#      45056
+#      49152
+#      53248
+#      57344
+#      61440
+#      65536
+#      69632
+#      73728
+#      77824
+#      81920
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of rope.v was successful.
+vsim work.rope_tb
+# End time: 22:48:24 on Jul 27,2022, Elapsed time: 0:14:06
+# Errors: 0, Warnings: 3
+# vsim work.rope_tb 
+# Start time: 22:48:24 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#      24576
+#      28672
+#      32768
+#      36864
+#      40960
+#      45056
+#      49152
+#      53248
+#      57344
+#      61440
+#      65536
+#      69632
+#      73728
+#      77824
+#      81920
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# |prev : x:0, y0
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x:0, y0
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x:0, y0
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x:0, y0
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x:0, y0
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x:0, y1
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x:0, y1
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x:0, y1
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x:0, y1
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x:0, y1
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x:x, yx
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:50:36 on Jul 27,2022, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 22:50:36 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+#       4096
+#       8192
+#      12288
+#      16384
+#      20480
+#      24576
+#      28672
+#      32768
+#      36864
+#      40960
+#      45056
+#      49152
+#      53248
+#      57344
+#      61440
+#      65536
+#      69632
+#      73728
+#      77824
+#      81920
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: xxxxxxxx, y: xxxxxxxx
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 22:55:48 on Jul 27,2022, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 22:55:48 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# fix constraint of node           1
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           6
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          11
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          16
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           2
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           7
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          12
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          17
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           3
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           8
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          13
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          18
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           4
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           9
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          14
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          19
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           5
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node          10
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          15
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          20
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: xxxxxxxx, y: xxxxxxxx
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 23:20:35 on Jul 27,2022, Elapsed time: 0:24:47
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 23:20:35 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+#  Trace back: window ".srcobjdlg" was deleted before its visibility changed
+#     while executing
+# "tkwait visibility $w"
+#     (procedure "tk_dialog" line 119)
+#     invoked from within
+# "tk_dialog .srcobjdlg "Warning!" "$msg" "" 1 Overwrite Reload Ignore"
+#     (object "::.main_pane.source2.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::CheckModification" body line 18)
+#     invoked from within
+# "::.main_pane.source2.interior.cs.body.srcobj CheckModification"
+#     (in namespace inscope "::vsimwidgets::Srcobj" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Srcobj {::.main_pane.source2.interior.cs.body.srcobj CheckModification}"
+#     (command bound to event)
+#    <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {window ".srcobjdlg" was deleted before its visibility changed}
+#    <1:proc:153: ::tk::dialog::error::bgerror {window ".srcobjdlg" was deleted before its visibility changed}
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 23:22:03 on Jul 27,2022, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 2
+# vsim work.rope_tb 
+# Start time: 23:22:03 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# fix constraint of node           1
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# new x : 000c8d9b, y: 000324cd
+# fix constraint of node           6
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# new x : 000c8d9b, y: 000644cd
+# fix constraint of node          11
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# new x : 000c8d9b, y: 000964cd
+# fix constraint of node          16
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# new x : 000c8d9b, y: 000caccd
+# fix constraint of node           2
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           7
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          12
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          17
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           3
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           8
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          13
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          18
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           4
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           9
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          14
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          19
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           5
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node          10
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          15
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          20
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: xxxxxxxx, y: xxxxxxxx
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
+# Compile of core.v failed with 1 errors.
+# Compile of Node.v failed with 1 errors.
+# Compile of core_tb.v failed with 1 errors.
+# Compile of Node_tb.v failed with 1 errors.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v failed with 1 errors.
+# Compile of rope_tb.v failed with 1 errors.
+# 7 compiles, 6 failed with 6 errors.
+# Compile of core.v was successful.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# Compile of rope.v was successful.
+# Compile of rope_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.rope_tb
+# End time: 23:32:57 on Jul 27,2022, Elapsed time: 0:10:54
+# Errors: 0, Warnings: 3
+# vsim work.rope_tb 
+# Start time: 23:32:57 on Jul 27,2022
+# Loading work.rope_tb
+# Loading work.rope
+# Loading work.core
+# Loading work.circular_shift
+# Loading work.Node
+# Loading work.FixedPointALU
+# Loading work.mouse_distance_checker
+# Loading work.Abs
+# Loading work.EnforceConstraint
+# Loading work.Div
+run -all
+# core:          1 | node:          0 -> y: 0000a000, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c000, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e000, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a0000, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 00014000, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 00046000, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 00078000, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa000, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e000, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 00050000, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 00082000, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b4000, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 00028000, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a000, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c000, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be000, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 00032000, x: 000c8000
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 00032000
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 00064000, x: 000c8000
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 00096000, x: 000c8000
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c8000, x: 000c8000
+# fix constraint of node           1 -> new x: 000c8000, new y:0000a4cd
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# new x : 000c8d9b, y: 000324cd
+# fix constraint of node           6 -> new x: 000c8XXX, new y:0003c4cd
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8000
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# new x : 000c8d9b, y: 000644cd
+# fix constraint of node          11 -> new x: 000c8XXX, new y:0006e4cd
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8000
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# new x : 000c8d9b, y: 000964cd
+# fix constraint of node          16 -> new x: 000c8XXX, new y:000a04cd
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8000
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# new x : 000c8d9b, y: 000caccd
+# fix constraint of node           2 -> new x: 000c8d9b, new y:000144cd
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8000
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           7 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: 000464cd, x: 000c8000
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          12 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: 000784cd, x: 000c8000
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          17 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: 000aa4cd, x: 000c8000
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           3 -> new x: 000c8129, new y:0001e167
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e4cd, x: 000c8000
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           8 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: 000504cd, x: 000c8000
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          13 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: 000824cd, x: 000c8000
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          18 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: 000b44cd, x: 000c8000
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           4 -> new x: 000c8064, new y:000283aa
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000284cd, x: 000c8000
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node           9 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: 0005a4cd, x: 000c8000
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          14 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: 0008c4cd, x: 000c8000
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          19 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: 000be4cd, x: 000c8000
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# fix constraint of node           5 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: 000324cd, x: 000c8000
+# fix constraint of node          10 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: 000c8000, y: 000324cd
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: 000644cd, x: 000c8000
+# fix constraint of node          15 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: 000964cd, x: 000c8000
+# fix constraint of node          20 -> new x: xxxxxxxx, new y:xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: 000c84cd, x: 000c8000
+# core:          1 | node:          0 -> y: 0000a4cd, x: 000c8000
+# core:          1 | node:          1 -> y: 000144cd, x: 000c8d9b
+# core:          1 | node:          2 -> y: 0001e167, x: 000c8129
+# core:          1 | node:          3 -> y: 000283aa, x: 000c8064
+# core:          1 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          0 -> y: 0003c4cd, x: 000c8XXX
+# |prev : x: xxxxxxxx, y: xxxxxxxx
+# core:          2 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          2 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          0 -> y: 0006e4cd, x: 000c8XXX
+# core:          3 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          3 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          0 -> y: 000a04cd, x: 000c8XXX
+# core:          4 | node:          1 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          2 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          3 -> y: xxxxxxxx, x: xxxxxxxx
+# core:          4 | node:          4 -> y: xxxxxxxx, x: xxxxxxxx
+# ** Note: $stop    : G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v(27)
+#    Time: 120 ps  Iteration: 0  Instance: /rope_tb
+# Break in Module rope_tb at G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/rope_tb.v line 27
