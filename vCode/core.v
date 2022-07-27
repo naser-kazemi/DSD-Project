@@ -46,7 +46,7 @@ generate
         assign nodes_y[(i + 1) * 32 - 1: i * 32] = y_pos[i];
         
         Node #(
-            i + 1
+            (i + 1) + (core_id -1) * 5
         ) node(
             clk,
             reset,
@@ -122,11 +122,16 @@ always @(posedge clk) begin
 
     for(j = 0; j < node_contains; j = j + 1)begin
         $display("core:%d | node:%d -> y: %h, x: %h", core_id, j, y_pos[j], x_pos[j]);
+        if(j == 0 && core_id == 2)begin
+            $display("|prev : x: %h, y: %h", prev_core_last_x, prev_core_last_y);
+        end
     end
   
+  if (control_signal[5])begin
+        $display("new x : %h, y: %h", new_x_pos[4], new_y_pos[4]);
+  end
     end else begin
         control_signal_reg <= 1;
-        $display("way down we go");
     end
 end
 

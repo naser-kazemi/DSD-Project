@@ -47,15 +47,6 @@ wire [31:0] next_core_x_pos [core_contains - 1:0];
 wire [31:0] next_core_y_pos [core_contains - 1:0];
 
 
-// TODO: set value of prev_core_x_pos, prev_core_y_pos, next_core_x_pos and next_core_y_pos
-
-
-
-
-
-
-
-
 wire [31:0] mouse_x, mouse_y;
 assign mouse_x =  {{10{1'b0}}, in_mouse_x, {12{1'b0}}};
 assign mouse_y =  {{10{1'b0}}, in_mouse_y, {12{1'b0}}};
