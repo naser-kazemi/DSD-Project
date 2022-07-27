@@ -14,8 +14,8 @@ module core #(
   input wire [31:0] next_core_first_y,
   input wire [31:0] x_mouse,
   input wire [31:0] y_mouse,
-  output wire[node_contains * 10 -1:0] nodes_x,
-  output wire[node_contains * 10 -1:0] nodes_y
+  output wire[node_contains * 32 -1:0] nodes_x,
+  output wire[node_contains * 32 -1:0] nodes_y
 );
 
 wire[2 * node_contains - 1:0] control_signal; 
@@ -38,8 +38,8 @@ wire [node_contains -1:0] finish_signal;
 genvar i;
 generate
     for(i = 0; i < node_contains; i = i + 1) begin
-        assign nodes_x[(i + 1) * 10 - 1: i * 10] = x_pos[i][21:12];
-        assign nodes_y[(i + 1) * 10 - 1: i * 10] = y_pos[i][21:12];
+        assign nodes_x[(i + 1) * 32 - 1: i * 32] = x_pos[i];
+        assign nodes_y[(i + 1) * 32 - 1: i * 32] = y_pos[i];
         
         Node #(
             i + 1

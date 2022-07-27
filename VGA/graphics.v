@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
 
+`include "../vCode/rope.v"
+
 module graphics(
 	input wire video_on,
 	input wire clk, reset,
@@ -8,7 +10,6 @@ module graphics(
 	input wire[9:0] next_x, next_y,
 	output reg [2:0] graph_rgb
 );
-
 
 	wire [200 - 1:0] nodes_x;
 	wire [200 - 1:0] nodes_y;
@@ -23,6 +24,9 @@ module graphics(
 			assign node_y_pos[i] = nodes_y[i * 10 + 9:i * 10];
 		end
 	endgenerate
+
+
+	rope r(clk, reset, nodes_x, nodes_y);
 
 	
 	localparam BALL_SIZE = 10;
