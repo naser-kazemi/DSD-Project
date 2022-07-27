@@ -1,4 +1,5 @@
 `include "Node.v"
+`include "Sequencer.v"
 `include "circular_shift.v"
 `include "EnforceConstraint.v"
 
@@ -18,7 +19,7 @@ reg[2 * node_contains -1:0] control_signal_reg;
 wire[2 * node_contains -1:0] next_control_signal; 
 
 assign control_signal = control_signal_reg; 
-circular_shift #(2 * node_contains) cs(control_signal, next_control_signal); 
+circular_shift #(2 * node_contains -1) cs(control_signal, next_control_signal); 
 
 
 wire [31:0] x_enforced_constraint[node_contains - 1:0]; 
