@@ -68,6 +68,7 @@ generate
                 y_pos[i],
                 x_pos[i + 1],
                 y_pos[i + 1],
+                is_last_node_of_last_core[i],
                 new_x_pos[i],
                 new_y_pos[i]
                 );

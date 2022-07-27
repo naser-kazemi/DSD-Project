@@ -23,8 +23,8 @@ reg[31:0] x; reg [31:0] y; reg [31:0] px; reg [31:0] py;
 assign x_pos = x;
 assign y_pos = y;
 
-integer base_x = 32'h0c8000;   
-integer dist = 32'h00a000;
+integer base_x = 32'h000c8000;   
+integer _dist = 32'h0000a000;
 
 reg[31:0] fix_2 = 32'h00002000 ;
 reg[31:0] fix_gravity = 32'h000004cd;
@@ -53,7 +53,7 @@ FixedPointALU x_mult_2(x,fix_2, operation_mult, x_mult_2_out);
 FixedPointALU twoX_sub_px(x_mult_2_out, px, operation_sub, next_x);
 FixedPointALU y_mult_2(y, fix_2, operation_mult, y_mult_2_out);
 FixedPointALU twoY_sub(y_mult_2_out, py_sub_gravity, operation_sub, next_y);
-FixedPointALU y_reset(dist, node_id_wire, operation_mult, reset_y);
+FixedPointALU y_reset(_dist, node_id_wire, operation_mult, reset_y);
 
 FixedPointALU x_plus_mouse_effect(x, fix_mouse_power, operation_add, px_affected_add);
 FixedPointALU x_mines_mouse_effect(x, fix_mouse_power, operation_sub, px_affected_sub);

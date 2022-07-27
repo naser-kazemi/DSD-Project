@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-`include "../vCode/rope.v"
+`include "rope.v"
 
 module graphics(
 	input wire video_on,
@@ -26,7 +26,7 @@ module graphics(
 	endgenerate
 
 
-	rope r(clk, reset, mouse_x, mouse_y, nodes_x, nodes_y);
+	rope rp(clk, reset, mouse_x, mouse_y, nodes_x, nodes_y);
 
 	
 	localparam BALL_SIZE = 10;
@@ -58,8 +58,8 @@ module graphics(
 	// a maximum of one pixel per clock
 	always @(*)
 	begin
-	    ball_x_l_next = next_x;
-	    ball_y_t_next = next_y;
+	    ball_x_l_next = mouse_x;
+	    ball_y_t_next = mouse_y;
 	    
 	    /*
 	    if(d)
@@ -81,8 +81,8 @@ module graphics(
 
 
 		for (j = 0; j < 20; j = j + 1) begin
-			collides_vec[i] = (node_x_pos[i] + BALL_RADIUS - pix_x) * (node_x_pos[i] + BALL_RADIUS - pix_x) + 
-	        (node_y_pos[i] + BALL_RADIUS - pix_y) * (node_y_pos[i] + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
+			collides_vec[j] = (node_x_pos[j] + BALL_RADIUS - pix_x) * (node_x_pos[j] + BALL_RADIUS - pix_x) + 
+	        (node_y_pos[j] + BALL_RADIUS - pix_y) * (node_y_pos[j] + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
 		end
 
 	    ball_x_r = ball_x_l + BALL_SIZE - 1;

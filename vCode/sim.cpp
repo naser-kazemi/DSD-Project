@@ -124,8 +124,8 @@ void apply_input() {
     for(int i=0; i<4; i++)
         keys[i] = 0;
         */
-       display->next_x = mouse_x;
-       display->next_y = mouse_y;
+       display->mouse_x = mouse_x;
+       display->mouse_y = mouse_y;
 }
 
 // we only want the input to last for one or few clocks

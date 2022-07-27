@@ -1,9 +1,8 @@
-`include "Core.v"
+`include "core.v"
 
 module rope #(
     parameter core_contains = 4
-)
- (
+) (
     input clk,
     input reset,
     input [9:0] in_mouse_x,
