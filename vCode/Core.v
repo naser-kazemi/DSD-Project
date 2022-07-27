@@ -14,14 +14,14 @@ module core #(
   input wire [31:0] next_core_first_y
 );
 
-reg[node_contains:0] verlet_state = 1;
-wire[node_contains:0] verlet_state_wire; 
-wire[node_contains:0] shifted_verlet_state;
-assign verlet_state_wire = verlet_state; 
+wire[2 * node_contains - 1:0] control_signal; 
+reg[2 * node_contains -1:0] control_signal_reg; 
+wire[2 * node_contains -1:0] next_control_signal; 
+
+assign control_signal = control_signal_reg; 
+circular_shift #(2 * node_contains) cs(control_signal, next_control_signal); 
 
 
-
-wire fix_constrante_state[node_contains -1:0]; 
 wire [31:0] x_enforced_constraint[node_contains - 1:0]; 
 reg [31:0]  y_enforced_constraint[node_contains - 1:0];
 wire [31:0] x_pos[node_contains - 1:0]; 
@@ -42,8 +42,8 @@ generate
         ) node(
             clk,
             reset,
-            verlet_state[i],
-            fix_constrante_state[i],
+            control_signal[i],
+            control_signal[i + 32],
             x_enforced_constraint[i], 
             y_enforced_constraint[i],
             x_pos[i],
@@ -103,12 +103,11 @@ generate
     end
 endgenerate
 
-circular_shift #(node_contains + 1) cs(verlet_state_wire, shifted_verlet_state);
 
 integer j;
 always @(posedge clk) begin
     if(!reset) begin
-    verlet_state <= shifted_verlet_state;
+    control_signal_reg <= next_control_signal;
     $display("verlet signals : %d", verlet_state);
 
     for(j = 0; j < node_contains; j = j + 1)begin

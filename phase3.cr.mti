@@ -1,4 +1,12 @@
-{G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v}
+{G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FixedPointALU
+-- Compiling module Node
+
+Top level modules:
+	Node
+
+} {} {}} {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/core_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module FixedPointALU
 -- Compiling module Node
@@ -10,14 +18,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Sequencer
 	core_tb
-
-} {} {}} {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module FixedPointALU
--- Compiling module Node
-
-Top level modules:
-	Node
 
 } {} {}} {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v} {1 {vlog -work work -stats=none {G:/uni/semister 4/DSD/project/phase3/DSD-Project/vCode/Node_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
