@@ -1,12 +1,17 @@
 `include "Node.v"
 `include "Sequencer.v"
 `include "circular_shift.v"
+`include "EnforceConstraint.v"
 
 module core #(
     parameter node_contains = 5
 ) (
   input wire clk, 
-  input wire reset 
+  input wire reset,
+  input wire [31:0] prev_core_last_x,
+  input wire [31:0] prev_core_last_y,
+  input wire [31:0] next_core_first_x,
+  input wire [31:0] next_core_first_y
 );
 
 reg[node_contains:0] verlet_state = 1;
@@ -21,6 +26,8 @@ wire [31:0] x_enforced_constraint[node_contains - 1:0];
 reg [31:0]  y_enforced_constraint[node_contains - 1:0];
 wire [31:0] x_pos[node_contains - 1:0]; 
 wire [31:0] y_pos[node_contains - 1:0];
+wire [31:0] new_x_pos[node_contains - 1:0];
+wire [31:0] new_y_pos[node_contains - 1:0];
 wire [31:0] clk_count;
 wire [node_contains -1:0] finish_signal;
 
@@ -28,7 +35,6 @@ wire [node_contains -1:0] finish_signal;
 
 
 genvar i;
-
 generate
     for(i = 0; i < node_contains; i = i + 1) begin
         Node #(
@@ -43,6 +49,57 @@ generate
             x_pos[i],
             y_pos[i]
             );
+
+        if (i == 0) begin
+            EnforceConstraint #(
+                i
+            ) enforce_constraint(
+                prev_core_last_x,
+                prev_core_last_y,
+                x_pos[i],
+                y_pos[i],
+                x_pos[i + 1],
+                y_pos[i + 1],
+                new_x_pos[i],
+                new_y_pos[i],
+                );
+        end
+
+
+        if (i > 0 && i < node_contains - 1) begin
+            EnforceConstraint #(
+                i
+            ) enforce_constraint(
+                x_pos[i - 1],
+                y_pos[i - 1],
+                x_pos[i],
+                y_pos[i],
+                x_pos[i + 1],
+                y_pos[i + 1],
+                new_x_pos[i],
+                new_y_pos[i],
+                );
+        end
+
+        if (i == node_contains - 1) begin
+            EnforceConstraint #(
+                i
+            ) enforce_constraint(
+                x_pos[i - 1],
+                y_pos[i - 1],
+                x_pos[i],
+                y_pos[i],
+                next_core_first_x,
+                next_core_first_y,
+                new_x_pos[i],
+                new_y_pos[i],
+                );
+        end
+
+
+
+        
+
     end
 endgenerate
 
@@ -59,6 +116,12 @@ always @(posedge clk) begin
     end
     end
 end
+
+
+
+generate
+
+endgenerate
 
 
 endmodule
