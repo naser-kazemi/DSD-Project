@@ -5,6 +5,7 @@ module graphics(
 	input wire clk, reset,
 	input wire u, d, l, r,
 	input wire [9:0] pix_x, pix_y,
+	input wire[9:0] next_x, next_y,
 	output reg [2:0] graph_rgb
 );
 	
@@ -37,9 +38,10 @@ module graphics(
 	// a maximum of one pixel per clock
 	always @(*)
 	begin
-	    ball_x_l_next = ball_x_l;
-	    ball_y_t_next = ball_y_t;
+	    ball_x_l_next = next_x;
+	    ball_y_t_next = next_y;
 	    
+	    /*
 	    if(d)
 	      ball_y_t_next = ball_y_t + 1; // move down
 	    if(u)
@@ -48,6 +50,7 @@ module graphics(
 	      ball_x_l_next = ball_x_l + 1; // move right
 	    if(l)
 	      ball_x_l_next = ball_x_l - 1; // move left
+	      */
 	end
 	
 	// check of the current pixel is inside our object

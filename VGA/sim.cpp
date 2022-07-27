@@ -78,6 +78,16 @@ void Special_input(int key, int x, int y) {
 	}
 }
 
+int mouse_x = 0, mouse_y = 0;
+
+
+void mouse_input(int button, int state, int x, int y) {
+
+	mouse_x = x;
+	mouse_y = y;
+	
+}
+
 // initiate and hande graphics
 void graphics_loop(int argc, char** argv) {
     glutInit(&argc, argv);
@@ -87,6 +97,7 @@ void graphics_loop(int argc, char** argv) {
     glutCreateWindow("VGA Simulator");
     glutDisplayFunc(render);
     glutSpecialFunc(Special_input);
+    glutMouseFunc(mouse_input);
 	
     gl_setup_complete = true;
     
@@ -102,6 +113,9 @@ bool pre_vsync = 0;
 
 // set verilog module inputs based on arrow key inputs
 void apply_input() {
+
+
+/*
     display->u = keys[0];
     display->d = keys[1];
     display->l = keys[2];
@@ -109,6 +123,9 @@ void apply_input() {
     
     for(int i=0; i<4; i++)
         keys[i] = 0;
+        */
+       display->next_x = mouse_x;
+       display->next_y = mouse_y;
 }
 
 // we only want the input to last for one or few clocks
