@@ -1,4 +1,3 @@
-`include "EnforceConstraint.v"
 `include "mouse_distance_checker.v"
 
 module Node #(

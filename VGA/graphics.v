@@ -1,8 +1,6 @@
 `timescale 1ns / 1ps
 
 module graphics(
-	input wire [200 - 1:0] nodes_x,
-	input wire [200 - 1:0] nodes_y,
 	input wire video_on,
 	input wire clk, reset,
 	input wire u, d, l, r,
@@ -11,6 +9,9 @@ module graphics(
 	output reg [2:0] graph_rgb
 );
 
+
+	wire [200 - 1:0] nodes_x;
+	wire [200 - 1:0] nodes_y;
 
 	wire [9:0] node_x_pos [19:0];
 	wire [9:0] node_y_pos [19:0];

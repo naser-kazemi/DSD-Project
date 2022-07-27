@@ -1,5 +1,4 @@
-`include "FixedPointALU.v"
-`include "Abs.v"
+`include "EnforceConstraint.v"
 
 module mouse_distance_checker (
     input wire[31:0] x_pos,
