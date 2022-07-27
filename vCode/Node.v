@@ -1,4 +1,5 @@
-`include "FixedPointALU.v"
+`include "EnforceConstraint.v"
+
 
 module Node #(
     parameter node_id = 1
