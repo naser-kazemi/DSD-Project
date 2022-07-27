@@ -14,6 +14,7 @@ module core #(
   input wire [31:0] next_core_first_y,
   input wire [31:0] x_mouse,
   input wire [31:0] y_mouse,
+  input wire is_last,
   output wire[node_contains * 32 -1:0] nodes_x,
   output wire[node_contains * 32 -1:0] nodes_y
 );
@@ -32,12 +33,15 @@ wire [31:0] new_y_pos[node_contains - 1:0];
 wire [31:0] clk_count;
 wire [node_contains -1:0] finish_signal;
 
+wire [node_contains -1:0] is_last_node_of_last_core;
+
 
 
 
 genvar i;
 generate
     for(i = 0; i < node_contains; i = i + 1) begin
+        assign is_last_node_of_last_core[i] = is_last && (node_contains - 1 == i); 
         assign nodes_x[(i + 1) * 32 - 1: i * 32] = x_pos[i];
         assign nodes_y[(i + 1) * 32 - 1: i * 32] = y_pos[i];
         
@@ -81,6 +85,7 @@ generate
                 y_pos[i],
                 x_pos[i + 1],
                 y_pos[i + 1],
+                is_last_node_of_last_core[i],
                 new_x_pos[i],
                 new_y_pos[i]
                 );
@@ -94,6 +99,7 @@ generate
                 y_pos[i],
                 next_core_first_x,
                 next_core_first_y,
+                is_last_node_of_last_core[i],
                 new_x_pos[i],
                 new_y_pos[i]
                 );
