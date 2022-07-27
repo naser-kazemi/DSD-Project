@@ -7,7 +7,7 @@ module graphics(
 	input wire clk, reset,
 	input wire u, d, l, r,
 	input wire [9:0] pix_x, pix_y,
-	input wire[9:0] next_x, next_y,
+	input wire[9:0] mouse_x, mouse_y,
 	output reg [2:0] graph_rgb
 );
 
@@ -26,7 +26,7 @@ module graphics(
 	endgenerate
 
 
-	rope r(clk, reset, nodes_x, nodes_y);
+	rope r(clk, reset, mouse_x, mouse_y, nodes_x, nodes_y);
 
 	
 	localparam BALL_SIZE = 10;
@@ -74,17 +74,28 @@ module graphics(
 	end
 	
 	// check of the current pixel is inside our object
+	reg [19:0] collides_vec;
+	integer j;
 	always @(*)
 	begin
+
+
+		for (j = 0; j < 20; j = j + 1) begin
+			collides_vec[i] = (node_x_pos[i] + BALL_RADIUS - pix_x) * (node_x_pos[i] + BALL_RADIUS - pix_x) + 
+	        (node_y_pos[i] + BALL_RADIUS - pix_y) * (node_y_pos[i] + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
+		end
+
 	    ball_x_r = ball_x_l + BALL_SIZE - 1;
 	    ball_y_b = ball_y_t + BALL_SIZE - 1;
 	    
 	    //collides = (ball_x_l <= pix_x) && (pix_x <= ball_x_r) && 
 	    //    (ball_y_t <= pix_y) && (pix_y <= ball_y_b);
 	        
-	    collides = (ball_x_l + BALL_RADIUS - pix_x) * (ball_x_l + BALL_RADIUS - pix_x) + 
-	        (ball_y_t + BALL_RADIUS - pix_y) * (ball_y_t + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
+	    // collides = (ball_x_l + BALL_RADIUS - pix_x) * (ball_x_l + BALL_RADIUS - pix_x) + 
+	        // (ball_y_t + BALL_RADIUS - pix_y) * (ball_y_t + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
 	end
+
+	assign collides = |collides_vec;
 	
 	// set pixel color based on position
 	always @(*)
