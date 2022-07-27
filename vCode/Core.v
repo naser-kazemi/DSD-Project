@@ -1,5 +1,4 @@
 `include "Node.v"
-`include "Sequencer.v"
 `include "circular_shift.v"
 
 
@@ -19,7 +18,7 @@ reg[2 * node_contains -1:0] control_signal_reg;
 wire[2 * node_contains -1:0] next_control_signal; 
 
 assign control_signal = control_signal_reg; 
-circular_shift #(2 * node_contains -1) cs(control_signal, next_control_signal); 
+circular_shift #(2 * node_contains) cs(control_signal, next_control_signal); 
 
 
 wire [31:0] x_enforced_constraint[node_contains - 1:0]; 
@@ -51,9 +50,7 @@ generate
             );
 
         if (i == 0) begin
-            EnforceConstraint #(
-                i
-            ) enforce_constraint(
+            EnforceConstraint enforce_constraint(
                 prev_core_last_x,
                 prev_core_last_y,
                 x_pos[i],
@@ -67,9 +64,7 @@ generate
 
 
         if (i > 0 && i < node_contains - 1) begin
-            EnforceConstraint #(
-                i
-            ) enforce_constraint(
+            EnforceConstraint enforce_constraint(
                 x_pos[i - 1],
                 y_pos[i - 1],
                 x_pos[i],
@@ -82,9 +77,7 @@ generate
         end
 
         if (i == node_contains - 1) begin
-            EnforceConstraint #(
-                i
-            ) enforce_constraint(
+            EnforceConstraint enforce_constraint(
                 x_pos[i - 1],
                 y_pos[i - 1],
                 x_pos[i],
