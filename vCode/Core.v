@@ -1,7 +1,7 @@
 `include "Node.v"
 `include "Sequencer.v"
 `include "circular_shift.v"
-`include "EnforceConstraint.v"
+
 
 module core #(
     parameter node_contains = 5
@@ -61,7 +61,7 @@ generate
                 x_pos[i + 1],
                 y_pos[i + 1],
                 new_x_pos[i],
-                new_y_pos[i],
+                new_y_pos[i]
                 );
         end
 
@@ -77,7 +77,7 @@ generate
                 x_pos[i + 1],
                 y_pos[i + 1],
                 new_x_pos[i],
-                new_y_pos[i],
+                new_y_pos[i]
                 );
         end
 
@@ -92,7 +92,7 @@ generate
                 next_core_first_x,
                 next_core_first_y,
                 new_x_pos[i],
-                new_y_pos[i],
+                new_y_pos[i]
                 );
         end
 
@@ -108,7 +108,7 @@ integer j;
 always @(posedge clk) begin
     if(!reset) begin
     control_signal_reg <= next_control_signal;
-    $display("verlet signals : %d", verlet_state);
+    $display("verlet signals : %d", control_signal);
 
     for(j = 0; j < node_contains; j = j + 1)begin
         $display("node %d \n y : %h \n x : %h\n***********************", j, y_pos[j], x_pos[j]);
