@@ -52,3 +52,9 @@ vsim work.core_tb
 # Compile of Node_tb.v was successful.
 # Compile of FixedPointALU.v was successful.
 # 5 compiles, 0 failed with no errors.
+# Compile of core.v was successful with warnings.
+# Compile of Node.v was successful.
+# Compile of core_tb.v was successful with warnings.
+# Compile of Node_tb.v was successful.
+# Compile of FixedPointALU.v was successful.
+# 5 compiles, 0 failed with no errors.

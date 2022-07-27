@@ -1,5 +1,4 @@
 `include "Node.v"
-`include "Sequencer.v"
 `include "circular_shift.v"
 `include "EnforceConstraint.v"
 
