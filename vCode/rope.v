@@ -63,11 +63,14 @@ wire [31:0] mouse_x, mouse_y;
 assign mouse_x =  {{10{1'b0}}, in_mouse_x, {12{1'b0}}};
 assign mouse_y =  {{10{1'b0}}, in_mouse_y, {12{1'b0}}};
 
+wire [core_contains -1:0] is_last_core;
+
 
 
 genvar i;
 generate
     for (i = 0; i < core_contains; i = i + 1) begin
+        assign is_last_core[i] = (i == core_contains - 1);
         if(i != 0) begin
         assign prev_core_x_pos[i] = core_x_pos[i - 1][5 * 32 -1: 32 * 4];
         assign prev_core_y_pos[i] = core_y_pos[i - 1][5 * 32 -1: 32 * 4];
@@ -87,6 +90,7 @@ generate
             next_core_y_pos[i],
             mouse_x,
             mouse_y,
+            is_last_core[i],
             core_x_pos[i],
             core_y_pos[i]
         );
