@@ -24,7 +24,7 @@ begin
     #10;
     reset = 0; 
     #110;
-    $stop;
+    $finish;
 
 end
 
