@@ -2,10 +2,10 @@
 
 module Node_tb; 
     reg clk, reset, verlet_state, fix_constraint_state; 
-    reg [31:0] fix_x, fix_y;
+    reg [31:0] fix_x, fix_y, x_mouse, y_mouse;
     wire [31:0] out_x, out_y; 
     wire finish_sig;
-    Node node(clk, reset, verlet_state, fix_constraint_state, fix_x, fix_y, out_x, out_y); 
+    Node node(clk, reset, verlet_state, fix_constraint_state, fix_x, fix_y,x_mouse, y_mouse, out_x, out_y); 
 
     initial clk = 1'b0; 
     always #5 clk = ~clk;

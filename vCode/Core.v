@@ -11,7 +11,9 @@ module core #(
   input wire [31:0] prev_core_last_x,
   input wire [31:0] prev_core_last_y,
   input wire [31:0] next_core_first_x,
-  input wire [31:0] next_core_first_y
+  input wire [31:0] next_core_first_y,
+  input wire [31:0] x_mouse,
+  input wire [31:0] y_mouse
 );
 
 wire[2 * node_contains - 1:0] control_signal; 
@@ -43,6 +45,8 @@ generate
             control_signal[i + node_contains],
             new_x_pos[i],
             new_y_pos[i],
+            x_mouse, 
+            y_mouse,
             x_pos[i],
             y_pos[i]
             );
