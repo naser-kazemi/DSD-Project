@@ -8,6 +8,7 @@ module EnforceConstraint (
     input wire[31:0] y_pos,
     input wire[31:0] down_x_pos,
     input wire[31:0] down_y_pos,
+    input wire is_last,
     output [31:0] x_enforced_constraints,
     output [31:0] y_enforced_constraints
 );

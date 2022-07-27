@@ -68,7 +68,17 @@ assign mouse_y =  {{10{1'b0}}, in_mouse_y, {12{1'b0}}};
 genvar i;
 generate
     for (i = 0; i < core_contains; i = i + 1) begin
-        core c (
+        if(i != 0) begin
+        assign prev_core_x_pos[i] = core_x_pos[i - 1][5 * 32 -1: 32 * 4];
+        assign prev_core_y_pos[i] = core_y_pos[i - 1][5 * 32 -1: 32 * 4];
+        end
+
+        if (i != core_contains - 1)begin
+            assign next_core_x_pos[i] = core_x_pos[i + 1][31:0];
+            assign next_core_y_pos[i] = core_y_pos[i + 1][31:0]; 
+        end
+
+        core #(5, i + 1) c(
             clk, 
             reset,
             prev_core_x_pos[i], 
