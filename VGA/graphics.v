@@ -1,6 +1,8 @@
 `timescale 1ns / 1ps
 
 module graphics(
+	input wire [200 - 1:0] nodes_x,
+	input wire [200 - 1:0] nodes_y,
 	input wire video_on,
 	input wire clk, reset,
 	input wire u, d, l, r,
@@ -8,8 +10,21 @@ module graphics(
 	input wire[9:0] next_x, next_y,
 	output reg [2:0] graph_rgb
 );
+
+
+	wire [9:0] node_x_pos [19:0];
+	wire [9:0] node_y_pos [19:0];
+
+	genvar i;
+	generate
+		for (i = 0; i < 20; i = i + 1) begin
+			assign node_x_pos[i] = nodes_x[i * 10 + 9:i * 10];
+			assign node_y_pos[i] = nodes_y[i * 10 + 9:i * 10];
+		end
+	endgenerate
+
 	
-	localparam BALL_SIZE = 50;
+	localparam BALL_SIZE = 10;
 	localparam BALL_RADIUS = BALL_SIZE >> 1;
 	
 	// signal declaration
