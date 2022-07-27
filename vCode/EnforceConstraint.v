@@ -33,15 +33,20 @@ FixedPointALU add_du(abs_dxu, abs_dyu, add_op, du);
 
 
 
-wire [31:0] dxd, dyd, dd;
-FixedPointALU sub_xd(x_pos, down_x_pos, sub_op, dxd);
-FixedPointALU sub_yd(y_pos, down_y_pos, sub_op, dyd);
+wire [31:0] temp_dxd, temp_dyd, temp_dd;
+FixedPointALU sub_xd(x_pos, down_x_pos, sub_op, temp_dxd);
+FixedPointALU sub_yd(y_pos, down_y_pos, sub_op, temp_dyd);
 
 wire [31:0] abs_dxd, abs_dyd;
-Abs abs3(dxd, abs_dxd);
-Abs abs4(dyd, abs_dyd);
-FixedPointALU add_dd(abs_dxd, abs_dyd, add_op, dd);
+Abs abs3(temp_dxd, abs_dxd);
+Abs abs4(temp_dyd, abs_dyd);
+FixedPointALU add_dd(abs_dxd, abs_dyd, add_op, temp_dd);
 
+
+wire [31:0] dxd, dyd, dd;
+assign dxd = !is_last ? temp_dxd : dxu;
+assign dyd = !is_last ? temp_dyd : dyu;
+assign dd = !is_last ? temp_dd : du;
 
 
 wire [31:0] div_xu, div_yu, div_xd, div_yd;
