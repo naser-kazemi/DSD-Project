@@ -117,7 +117,7 @@ void apply_input() {
 
 /*
     display->u = keys[0];
-    display->d = keys[1];
+    display->d = keys[next_y1];
     display->l = keys[2];
     display->r = keys[3];
     

@@ -11,7 +11,7 @@ module graphics(
 	input wire[9:0] mouse_x, mouse_y,
 	output reg [2:0] graph_rgb
 );
-
+	
 	wire [200 - 1:0] nodes_x;
 	wire [200 - 1:0] nodes_y;
 
@@ -36,8 +36,9 @@ module graphics(
 
 	rope rp(clk, reset, mouse_x, mouse_y, nodes_x, nodes_y);
 
-	
-	localparam BALL_SIZE = 10;
+
+
+	localparam BALL_SIZE = 50;
 	localparam BALL_RADIUS = BALL_SIZE >> 1;
 	
 	// signal declaration
@@ -62,8 +63,8 @@ module graphics(
     //     end
     // end
 	
-	// moving the object based on inputs
-	// a maximum of one pixel per clock
+	// // moving the object based on inputs
+	// // a maximum of one pixel per clock
 	// always @(*)
 	// begin
 	//     ball_x_l_next = mouse_x;
@@ -84,14 +85,14 @@ module graphics(
 	// check of the current pixel is inside our object
 	reg [19:0] collides_vec;
 	integer j;
-	always @(*)
+	always @(pix_x, pix_y)
 	begin
 		for (j = 0; j < 20; j = j + 1) begin
 			collides_vec[j] = (node_x_pos[j] + BALL_RADIUS - pix_x) * (node_x_pos[j] + BALL_RADIUS - pix_x) + 
 	        (node_y_pos[j] + BALL_RADIUS - pix_y) * (node_y_pos[j] + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
 		end
 
-	    // ball_x_r = ball_x_l + BALL_SIZE - 1;
+	    // ball_x_r = ball_x_l + BALL_SIZE - 1;Z
 	    // ball_y_b = ball_y_t + BALL_SIZE - 1;
 	    
 	    //collides = (ball_x_l <= pix_x) && (pix_x <= ball_x_r) && 
@@ -104,7 +105,7 @@ module graphics(
 	assign collides = |collides_vec;
 	
 	// set pixel color based on position
-	always @(*)
+	always @(pix_x, pix_y, graph_rgb)
 	begin
 	    graph_rgb = 3'b000; // black
 	    if (video_on)
