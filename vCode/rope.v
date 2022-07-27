@@ -37,7 +37,7 @@ genvar j;
 generate
     for (j = 0; j < core_contains; j = j + 1) begin
         assign fixed_point_node_x[j * 5 * 32 + 159:j * 5 * 32] = core_x_pos[j];
-        assign fixed_point_node_x[j * 5 * 32 + 159:j * 5 * 32] = core_y_pos[j];
+        assign fixed_point_node_y[j * 5 * 32 + 159:j * 5 * 32] = core_y_pos[j];
     end
 endgenerate
 
@@ -48,8 +48,6 @@ wire [31:0] next_core_y_pos [core_contains - 1:0];
 
 
 // TODO: set value of prev_core_x_pos, prev_core_y_pos, next_core_x_pos and next_core_y_pos
-
-
 
 
 

@@ -59,23 +59,36 @@ void glutTimer(int t) {
 	glutTimerFunc(t, glutTimer, t);
 }
 
+// simulate for a single clock
+void tick() {
+    // update simulation time
+    main_time++;
+
+    // rising edge
+    display->clk = 1;
+    display->eval();
+
+    // falling edge
+    display->clk = 0;
+    display->eval();
+}
+
+
+// globally reset the model
+void reset() {
+    display->reset = 1;
+    display->clk = 0;
+    display->eval();
+    tick();
+    display->reset = 0;
+}
+
+
+
 // handle up/down/left/right arrow keys
 int keys[4] = {};
 void Special_input(int key, int x, int y) {
-	switch(key) {
-		case GLUT_KEY_UP:
-		    keys[0] = 1;
-		    break;
-		case GLUT_KEY_DOWN:
-		    keys[1] = 1;
-		    break;
-		case GLUT_KEY_LEFT:
-		    keys[2] = 1;
-		    break;
-		case GLUT_KEY_RIGHT:
-		    keys[3] = 1;
-		    break;
-	}
+    reset();
 }
 
 int mouse_x = 0, mouse_y = 0;
@@ -134,6 +147,8 @@ void discard_input() {
     display->d = 0;
     display->l = 0;
     display->r = 0;
+    display->mouse_x = 0;
+    display->mouse_y = 0;
 }
 
 // read VGA outputs and update graphics buffer
@@ -163,28 +178,7 @@ void sample_pixel() {
 	pre_vsync = display->vsync;
 }
 
-// simulate for a single clock
-void tick() {
-    // update simulation time
-    main_time++;
 
-    // rising edge
-    display->clk = 1;
-    display->eval();
-
-    // falling edge
-    display->clk = 0;
-    display->eval();
-}
-
-// globally reset the model
-void reset() {
-    display->reset = 1;
-    display->clk = 0;
-    display->eval();
-    tick();
-    display->reset = 0;
-}
 
 int main(int argc, char** argv) {
     // create a new thread for graphics handling

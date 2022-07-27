@@ -38,9 +38,9 @@ module graphics(
 
 
 
-	localparam BALL_SIZE = 50;
+	localparam BALL_SIZE = 10;
 	localparam BALL_RADIUS = BALL_SIZE >> 1;
-	
+	 
 	// signal declaration
 	reg [9:0] ball_x_l, ball_y_t;
 	reg [9:0] ball_x_l_next, ball_y_t_next;
@@ -88,11 +88,12 @@ module graphics(
 	always @(pix_x, pix_y)
 	begin
 		for (j = 0; j < 20; j = j + 1) begin
+			// $display("node %d x = %d \t y = %d", j, node_x_pos[j], node_y_pos[j]);
 			collides_vec[j] = (node_x_pos[j] + BALL_RADIUS - pix_x) * (node_x_pos[j] + BALL_RADIUS - pix_x) + 
 	        (node_y_pos[j] + BALL_RADIUS - pix_y) * (node_y_pos[j] + BALL_RADIUS - pix_y) <= BALL_RADIUS * BALL_RADIUS;
 		end
 
-	    // ball_x_r = ball_x_l + BALL_SIZE - 1;Z
+	    // ball_x_r = ball_x_l + BALL_SIZE - 1;
 	    // ball_y_b = ball_y_t + BALL_SIZE - 1;
 	    
 	    //collides = (ball_x_l <= pix_x) && (pix_x <= ball_x_r) && 

@@ -27,7 +27,8 @@ integer base_x = 32'h000c8000;
 integer _dist = 32'h0000a000;
 
 reg[31:0] fix_2 = 32'h00002000 ;
-reg[31:0] fix_gravity = 32'h000004cd;
+// reg[31:0] fix_gravity = 32'h000004cd;
+reg[31:0] fix_gravity = 32'h00000000;
 reg[31:0] fix_mouse_power = 32'h0000a000;
 reg[1:0] operation_mult = 2;
 reg[1:0] operation_sub = 1; 
