@@ -1,11 +1,11 @@
-`include "Div.v"
+`include "div.v"
 
 module div_tb;
 
 reg [31:0] a, b;
 wire [31:0] result;
 
-Div div(a, b, result);
+div div(a, b, result);
 
 initial begin
 

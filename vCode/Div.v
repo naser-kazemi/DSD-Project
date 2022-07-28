@@ -1,7 +1,7 @@
 `include "FixedPointALU.v"
 `include "Abs.v"
 
-module Div #( 
+module div #( 
     parameter N = 32
 ) (  
     input [N - 1:0] a,

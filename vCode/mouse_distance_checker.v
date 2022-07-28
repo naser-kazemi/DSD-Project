@@ -1,4 +1,4 @@
-`include "EnforceConstraint.v"
+`include "enforce_constraint.v"
 
 module mouse_distance_checker (
     input wire[31:0] x_pos,

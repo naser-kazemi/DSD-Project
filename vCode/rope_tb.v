@@ -23,8 +23,8 @@ begin
     reset = 1;
     #10;
     reset = 0; 
-    #110;
-    $stop;
+    #1010;
+    $finish;
 
 end
 

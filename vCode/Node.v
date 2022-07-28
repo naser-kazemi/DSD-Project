@@ -1,6 +1,6 @@
 `include "mouse_distance_checker.v"
 
-module Node #(
+module node #(
     parameter node_id = 1
 ) (
     input wire clk,
@@ -28,7 +28,6 @@ integer _dist = 32'h0000a000;
 
 reg[31:0] fix_2 = 32'h00002000 ;
 reg[31:0] fix_gravity = 32'h000004cd;
-//reg[31:0] fix_gravity = 32'h00000000;
 reg[31:0] fix_mouse_power = 32'h0000a000;
 reg[1:0] operation_mult = 2;
 reg[1:0] operation_sub = 1; 
@@ -44,8 +43,7 @@ wire[31:0] py_sub_gravity;
 wire in_touch;
 wire direction;
 
-wire[31:0] node_id_wire; 
-assign node_id_wire = node_id << 12;
+reg[31:0] node_id_reg =  (node_id - 1) << 12;
 
 
 assign py_sub_gravity = py - fix_gravity;
@@ -54,7 +52,7 @@ FixedPointALU x_mult_2(x,fix_2, operation_mult, x_mult_2_out);
 FixedPointALU twoX_sub_px(x_mult_2_out, px, operation_sub, next_x);
 FixedPointALU y_mult_2(y, fix_2, operation_mult, y_mult_2_out);
 FixedPointALU twoY_sub(y_mult_2_out, py_sub_gravity, operation_sub, next_y);
-FixedPointALU y_reset(_dist, node_id_wire, operation_mult, reset_y);
+FixedPointALU y_reset(_dist, node_id_reg, operation_mult, reset_y);
 
 FixedPointALU x_plus_mouse_effect(x, fix_mouse_power, operation_add, px_affected_add);
 FixedPointALU x_mines_mouse_effect(x, fix_mouse_power, operation_sub, px_affected_sub);
@@ -67,7 +65,7 @@ always @(posedge clk) begin: calc_verlet_x
         px <= base_x; 
         y <= reset_y;
         py <= reset_y;
-    end else if(verlet_state)begin
+    end else if(verlet_state && node_id != 1)begin
         if(in_touch)begin
             if(direction)begin
                 px <= px_affected_add;
@@ -81,7 +79,7 @@ always @(posedge clk) begin: calc_verlet_x
         x <= next_x;
         y <= next_y;
     end else if(fix_constraint_state)begin
-        $display("fix constraint of node %d -> new x: %h, new y:%h",node_id, x_fix_constraint, y_fix_constraint);
+        //$display("fix constraint of node %d -> new x: %h, new y:%h",node_id, x_fix_constraint, y_fix_constraint);
         x <= x_fix_constraint;
         y <= y_fix_constraint;
     end else begin
