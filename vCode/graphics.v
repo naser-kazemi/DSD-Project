@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 
 `include "rope.v"
+`include "slow_clk.v"
 
 module graphics(
     input wire video_on,
@@ -9,7 +10,7 @@ module graphics(
 	input [9:0] mouse_x, mouse_y,
 	input wire [9:0] pix_x, pix_y,
 	
-	output reg [2:0] graph_rgb
+	output [2:0] graph_rgb
 );
 	
 	localparam RADIUS = 10;
@@ -38,7 +39,10 @@ module graphics(
 		end
 	endgenerate
 
-	rope rp(clk, reset, mouse_x, mouse_y, nodes_x, nodes_y);
+	wire slow;
+	slow_clk sc(clk, reset, slow);
+
+	rope rp(slow, reset, mouse_x, mouse_y, nodes_x, nodes_y);
 	
 	// sequential logic
 	// always @(posedge clk)
