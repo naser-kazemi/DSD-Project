@@ -100,13 +100,13 @@ FixedPointALU new_x(x_pos, sum_x_by_4, sub_op, x_enforced_constraints);
 FixedPointALU new_y(y_pos, sum_y_by_4, sub_op, y_enforced_constraints);
 
 
-initial begin
-    #3
-    $display("div_xu = %h", mult_xu);
-    $display("div_yu = %h", mult_yu);
-    $display("div_xd = %h", mult_xd);
-    $display("div_yd = %h", mult_yd);
-end
+// initial begin
+//     #3
+//     $display("div_xu = %h", mult_xu);
+//     $display("div_yu = %h", mult_yu);
+//     $display("div_xd = %h", mult_xd);
+//     $display("div_yd = %h", mult_yd);
+// end
 
 
 
