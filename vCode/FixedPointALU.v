@@ -50,8 +50,10 @@ assign mult[N-2:0] = mult[N-1] ? quantized_result_2cmp : quantized_result; //If 
 
 
 
+wire [31:0] temp_out;
+assign temp_out = op == 2'b00 ? sum : op == 2'b01 ? sub : mult;
 
-assign out = op == 2'b00 ? sum : op == 2'b01 ? sub : mult;
+assign out = temp_out == 32'h80000000 ? 32'h00000000 : temp_out;
 
 
     

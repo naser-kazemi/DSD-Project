@@ -32,18 +32,19 @@ FixedPointALU mult2(abs_b, fix_15, op, b_15);
 FixedPointALU mult3(abs_b, fix_67, op, b_67);
 FixedPointALU mult4(abs_b, fix_05, op, b_05);
 
-wire [N-1:0] div;
+wire [N-1:0] div, neg_div;
 
 assign div = abs_a > b_2 ? 32'h00003000 : abs_a > b_15 ? 32'h00001c00 : abs_a > b_67 ? 32'h00001000 : abs_a > b_05 
         ? 32'h00000948 : 32'h00000571;
 
-wire sign;
-assign sign = a[N-1] ^ b[N-1];
+assign neg_div = abs_a > b_2 ? 32'hffffd000 : abs_a > b_15 ? 32'hffffe400 : abs_a > b_67 ? 32'hfffff000 : abs_a > b_05 
+        ? 32'hfffff6b8 : 32'hfffffa8f;
 
-wire [N-1:0] out_2cmp;
-assign out_2cmp = {sign, ~div[N-2:0] + 1'b1};
 
-assign out = sign ? out_2cmp : div;
+
+assign out = a[31] ^ b[31] ? neg_div : div;
+
+
 
 
 endmodule

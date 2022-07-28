@@ -8,20 +8,20 @@ wire [31:0] x_enforced_constraints;
 wire [31:0] y_enforced_constraints;
 
 
-EnforceConstraint ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 1'b1,
+EnforceConstraint ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 1'b0,
                 x_enforced_constraints, y_enforced_constraints);
 
 
 initial begin
 
-    up_x_pos = 32'h000c8000;    // 10.32
-    up_y_pos = 32'h000324cd;    // 30.5
+    up_x_pos = 32'h000c9b36;
+    up_y_pos = 32'h000aae67;
 
-    x_pos = 32'h000c8000;   // 3.47
-    y_pos = 32'h0003c4cd;   // 30.5
+    x_pos = 32'h000c9b36;
+    y_pos = 32'h000b4e67;
 
-    down_x_pos = 32'h000c8000; // 0.38
-    down_y_pos = 32'h000464cd; // 90.68
+    down_x_pos = 32'h000c9b36; 
+    down_y_pos = 32'h000c3e67;
 
 
     #50

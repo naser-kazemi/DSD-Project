@@ -49,6 +49,15 @@ assign dyd = !is_last ? temp_dyd : dyu;
 assign dd = !is_last ? temp_dd : du;
 
 
+// wire [31:0] dxd, dyd, dd;
+// FixedPointALU sub_xd(x_pos, down_x_pos, sub_op, dxd);
+// FixedPointALU sub_yd(y_pos, down_y_pos, sub_op, dyd);
+
+// wire [31:0] abs_dxd, abs_dyd;
+// Abs abs3(dxd, abs_dxd);
+// Abs abs4(dyd, abs_dyd);
+// FixedPointALU add_dd(abs_dxd, abs_dyd, add_op, dd);
+
 
 wire [31:0] div_xu, div_yu, div_xd, div_yd;
 Div div1(dxu, du, div_xu);
@@ -86,8 +95,19 @@ assign sum_x_by_4 = {sum_x[31:30], temp_sum_x[29:0]};
 assign sum_y_by_4 = {sum_y[31:30], temp_sum_y[29:0]};
 
 
+
 FixedPointALU new_x(x_pos, sum_x_by_4, sub_op, x_enforced_constraints);
 FixedPointALU new_y(y_pos, sum_y_by_4, sub_op, y_enforced_constraints);
+
+
+initial begin
+    #3
+    $display("div_xu = %h", mult_xu);
+    $display("div_yu = %h", mult_yu);
+    $display("div_xd = %h", mult_xd);
+    $display("div_yd = %h", mult_yd);
+end
+
 
 
 
