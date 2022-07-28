@@ -59,47 +59,37 @@ void glutTimer(int t) {
 	glutTimerFunc(t, glutTimer, t);
 }
 
-// simulate for a single clock
-void tick() {
-    // update simulation time
-    main_time++;
-
-    // rising edge
-    display->clk = 1;
-    display->eval();
-
-    // falling edge
-    display->clk = 0;
-    display->eval();
-}
-
-
-// globally reset the model
-void reset() {
-    display->reset = 1;
-    display->clk = 0;
-    display->eval();
-    tick();
-    display->reset = 0;
-}
-
-
-
 // handle up/down/left/right arrow keys
 int keys[4] = {};
-// void Special_input(int key, int x, int y) {
-//     reset();
-// }
-
-int mouse_x = 0, mouse_y = 0;
-
-
-void mouse_input(int button, int state, int x, int y) {
-
-	mouse_x = x;
-	mouse_y = y;
-	
+void Special_input(int key, int x, int y) {
+	switch(key) {
+		case GLUT_KEY_UP:
+		    keys[0] = 1;
+		    break;
+		case GLUT_KEY_DOWN:
+		    keys[1] = 1;
+		    break;
+		case GLUT_KEY_LEFT:
+		    keys[2] = 1;
+		    break;
+		case GLUT_KEY_RIGHT:
+		    keys[3] = 1;
+		    break;
+	}
 }
+
+
+
+
+
+int mouse_x, mouse_y;
+void mouse(int button, int state, int x, int y) {
+    mouse_x = x;
+    mouse_y = y;
+}
+
+
+
 
 // initiate and hande graphics
 void graphics_loop(int argc, char** argv) {
@@ -110,7 +100,7 @@ void graphics_loop(int argc, char** argv) {
     glutCreateWindow("VGA Simulator");
     glutDisplayFunc(render);
     // glutSpecialFunc(Special_input);
-    glutMouseFunc(mouse_input);
+    glutMouseFunc(mouse);
 	
     gl_setup_complete = true;
     
@@ -126,19 +116,19 @@ bool pre_vsync = 0;
 
 // set verilog module inputs based on arrow key inputs
 void apply_input() {
-
-
-/*
-    display->u = keys[0];
-    display->d = keys[next_y1];
-    display->l = keys[2];
-    display->r = keys[3];
+    // display->u = keys[0];
+    // display->d = keys[1];
+    // display->l = keys[2];
+    // display->r = keys[3];
     
-    for(int i=0; i<4; i++)
-        keys[i] = 0;
-        */
-       display->mouse_x = mouse_x;
-       display->mouse_y = mouse_y;
+    // for(int i=0; i<4; i++)
+    //     keys[i] = 0;
+    display->mouse_x = mouse_x;
+    display->mouse_y = mouse_y;
+
+    // mouse_x = 0;
+    // mouse_y = 0;
+    
 }
 
 // we only want the input to last for one or few clocks
@@ -147,13 +137,13 @@ void discard_input() {
     // display->d = 0;
     // display->l = 0;
     // display->r = 0;
-    display->mouse_x = 0;
-    display->mouse_y = 0;
+    // display->mouse_x = 400;
+    // display->mouse_y = 400;
 }
 
 // read VGA outputs and update graphics buffer
 void sample_pixel() {
-    // discard_input();
+    discard_input();
     
 	h_count = (h_count + 1) % (HD + HF + HB + HR);
 
@@ -178,7 +168,28 @@ void sample_pixel() {
 	pre_vsync = display->vsync;
 }
 
+// simulate for a single clock
+void tick() {
+    // update simulation time
+    main_time++;
 
+    // rising edge
+    display->clk = 1;
+    display->eval();
+
+    // falling edge
+    display->clk = 0;
+    display->eval();
+}
+
+// globally reset the model
+void reset() {
+    display->reset = 1;
+    display->clk = 0;
+    display->eval();
+    tick();
+    display->reset = 0;
+}
 
 int main(int argc, char** argv) {
     // create a new thread for graphics handling
@@ -197,11 +208,7 @@ int main(int argc, char** argv) {
     // cycle accurate simulation loop
     while (!Verilated::gotFinish()) {
         tick();
-        tick();
-        // the clock frequency of VGA is half of that of the whole model
-        // so we sample from VGA every other clock
 		sample_pixel();
-        cout << display->reset;
     }
 
     display->final();

@@ -2,40 +2,29 @@
 
 module display(
 	input wire clk, reset,
-	// input wire u, d,  l, r,
-	input wire [9:0] mouse_x , mouse_y,
+	// input wire u, d, l, r,
+	input [9:0] mouse_x, mouse_y,
 	output wire hsync, vsync,
 	output wire [2:0] rgb
 );
 	
 	// signal declaration
-	wire [9:0] pixel_x , pixel_y;
-	wire video_on , pixel_tick;
-	reg [2:0] rgb_reg;
-	wire [2:0] rgb_next;
+	wire [9:0] pixel_x, pixel_y;
+	wire video_on;
 	
-	// instantiate vga sync circuit 
-	vga_sync vga_sync_unit
-		(.clk(clk), .reset(reset), .hsync(hsync), .vsync(vsync),
-		.video_on(video_on), .p_tick(pixel_tick),
-		.pixel_x(pixel_x), .pixel_y(pixel_y)
+	// instantiate vga_controller circuit 
+	vga_sync vga_sync_unit(
+		.clk(clk), .reset(reset), .hsync(hsync), .vsync(vsync),
+		.pixel_x(pixel_x), .pixel_y(pixel_y), .video_on(video_on)
 	);
 	
 	// instantiate graphics generator
-	graphics graphics_unit
-		(.video_on(video_on),
+	graphics graphics_unit(
 		.clk(clk), .reset(reset),
 		// .u(u), .d(d), .l(l), .r(r),
 		.pix_x(pixel_x), .pix_y(pixel_y),
 		.mouse_x(mouse_x), .mouse_y(mouse_y),
-		.graph_rgb(rgb_next)
+		.video_on(video_on), .graph_rgb(rgb)
 	);
-	
-	// rgb buffer 
-	always @(posedge clk)
-		if(pixel_tick) 
-			rgb_reg <= rgb_next ; 
-	// output 
-	assign rgb = rgb_reg;
 
 endmodule
