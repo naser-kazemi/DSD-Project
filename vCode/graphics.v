@@ -13,7 +13,7 @@ module graphics(
 	output [2:0] graph_rgb
 );
 	
-	localparam RADIUS = 10;
+	localparam RADIUS = 5;
 	
 	localparam CIRCLE_COLOR = 3'b101; // magenta
 	localparam BACKGROUND_COLOR = 3'b010; // green

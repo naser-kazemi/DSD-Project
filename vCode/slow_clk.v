@@ -5,15 +5,15 @@ module slow_clk (
 );
 
 
-reg [3:0] clk_cnt;
+reg [2:0] clk_cnt;
 
 
 always @(posedge clk) begin
     if (reset)
-        slow <= 0;
+        slow <= 1;
     else begin
-        clk_cnt <= clk + 1;
-        if (clk_cnt)
+        clk_cnt <= clk_cnt + 1;
+        if (clk_cnt == 0)
             slow <= slow + 1;
     end
     
