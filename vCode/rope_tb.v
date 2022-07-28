@@ -24,6 +24,9 @@ begin
     #10;
     reset = 0; 
     #1010;
+
+    // $display("node_x = %h ", nodes_x[189:180]);
+
     $finish;
 
 end

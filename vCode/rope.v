@@ -21,7 +21,7 @@ wire [core_contains * 5 * 32 - 1:0] fixed_point_node_y;
 
 genvar k;
 generate
-    for (k = 0; k < 5 * core_contains - 1; k = k + 1) begin
+    for (k = 0; k < 5 * core_contains; k = k + 1) begin
         assign nodes_x[k * 10 + 9:k * 10] = fixed_point_node_x[k * 32 + 21:k * 32 + 12];
         assign nodes_y[k * 10 + 9:k * 10] = fixed_point_node_y[k * 32 + 21:k * 32 + 12];
     end
@@ -85,8 +85,13 @@ generate
     end
 endgenerate
 
-
-
+integer s;
+initial begin
+    #1020
+    for (s = 0; s < 4; s = s + 1) begin 
+        $display("core_x_pos = %h", core_x_pos[s][159:128]);
+    end
+end
 
 
 

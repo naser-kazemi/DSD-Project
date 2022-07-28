@@ -5,7 +5,7 @@
 
 module graphics(
     input wire video_on,
-	input wire clk, reset,
+	// input wire clk, reset,
 	// input wire u, d, l, r,
 	input [9:0] mouse_x, mouse_y,
 	input wire [9:0] pix_x, pix_y,
@@ -74,6 +74,26 @@ module graphics(
 	//     if(r)
 	//       center_x_next = center_x + 1;
 	// end
+
+	reg clk, reset; 
+	// reg[9:0] mouse_x, mouse_y; 
+	// wire [4 * 5 * 10 - 1:0] nodes_x, nodes_y;
+	initial clk = 1'b0; 
+	always #5 clk = ~clk;
+
+	initial
+	begin
+		reset = 1;
+		#10;
+		reset = 0; 
+		#1010;
+
+		$display("node_x = %h ", nodes_x[19 * 10 + 9:19 * 10]);
+
+		$finish;
+
+	end
+
 
 
 	wire collides;
