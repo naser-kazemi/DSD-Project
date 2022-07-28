@@ -14,14 +14,14 @@ enforce_constraint ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 
 
 initial begin
     is_last = 0;
-    
-    up_x_pos = 32'h00000000;  
-    up_y_pos = 32'h000c8000;   
 
-    x_pos = 32'h000c8000;   
-    y_pos = 32'h0000a4cd;  
+    up_x_pos = 32'h00000000;
+    up_y_pos = 32'h000c8000;
 
-    down_x_pos = 32'h000c8000; 
+    x_pos = 32'h000c8000;
+    y_pos = 32'h0000a4cd;
+
+    down_x_pos = 32'h000c8000;
     down_y_pos = 32'h000144cd;
 
 
