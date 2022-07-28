@@ -2,7 +2,7 @@
 
 module display(
 	input wire clk, reset,
-	input wire u, d, l, r,
+	// input wire u, d,  l, r,
 	input wire [9:0] mouse_x , mouse_y,
 	output wire hsync, vsync,
 	output wire [2:0] rgb
@@ -25,7 +25,7 @@ module display(
 	graphics graphics_unit
 		(.video_on(video_on),
 		.clk(clk), .reset(reset),
-		.u(u), .d(d), .l(l), .r(r),
+		// .u(u), .d(d), .l(l), .r(r),
 		.pix_x(pixel_x), .pix_y(pixel_y),
 		.mouse_x(mouse_x), .mouse_y(mouse_y),
 		.graph_rgb(rgb_next)

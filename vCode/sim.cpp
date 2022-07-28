@@ -87,9 +87,9 @@ void reset() {
 
 // handle up/down/left/right arrow keys
 int keys[4] = {};
-void Special_input(int key, int x, int y) {
-    reset();
-}
+// void Special_input(int key, int x, int y) {
+//     reset();
+// }
 
 int mouse_x = 0, mouse_y = 0;
 
@@ -109,7 +109,7 @@ void graphics_loop(int argc, char** argv) {
     glutInitWindowPosition(100, 100);
     glutCreateWindow("VGA Simulator");
     glutDisplayFunc(render);
-    glutSpecialFunc(Special_input);
+    // glutSpecialFunc(Special_input);
     glutMouseFunc(mouse_input);
 	
     gl_setup_complete = true;
@@ -143,17 +143,17 @@ void apply_input() {
 
 // we only want the input to last for one or few clocks
 void discard_input() {
-    display->u = 0;
-    display->d = 0;
-    display->l = 0;
-    display->r = 0;
+    // display->u = 0;
+    // display->d = 0;
+    // display->l = 0;
+    // display->r = 0;
     display->mouse_x = 0;
     display->mouse_y = 0;
 }
 
 // read VGA outputs and update graphics buffer
 void sample_pixel() {
-    discard_input();
+    // discard_input();
     
 	h_count = (h_count + 1) % (HD + HF + HB + HR);
 
@@ -201,6 +201,7 @@ int main(int argc, char** argv) {
         // the clock frequency of VGA is half of that of the whole model
         // so we sample from VGA every other clock
 		sample_pixel();
+        cout << display->reset;
     }
 
     display->final();
