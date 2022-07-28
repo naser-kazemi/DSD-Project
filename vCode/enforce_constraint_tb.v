@@ -1,4 +1,4 @@
-`include "EnforceConstraint.v"
+`include "enforce_constraint.v"
 
 module enforce_constraint_tb;
 
@@ -6,6 +6,7 @@ module enforce_constraint_tb;
 reg [31:0] up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos;
 wire [31:0] x_enforced_constraints;
 wire [31:0] y_enforced_constraints;
+reg is_last ;
 
 
 EnforceConstraint ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 1'b0,
@@ -13,6 +14,7 @@ EnforceConstraint ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 1
 
 
 initial begin
+    is_last = 0;
 
     up_x_pos = 32'h000c9b36;
     up_y_pos = 32'h000aae67;

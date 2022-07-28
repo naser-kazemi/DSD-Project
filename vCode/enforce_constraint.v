@@ -1,7 +1,7 @@
-`include "Div.v"
+`include "div.v"
 
 
-module EnforceConstraint (
+module enforce_constraint (
     input wire[31:0] up_x_pos,
     input wire[31:0] up_y_pos,
     input wire[31:0] x_pos,
@@ -60,10 +60,10 @@ assign dd = !is_last ? temp_dd : du;
 
 
 wire [31:0] div_xu, div_yu, div_xd, div_yd;
-Div div1(dxu, du, div_xu);
-Div div2(dyu, du, div_yu);
-Div div3(dxd, dd, div_xd);
-Div div4(dyd, dd, div_yd);
+div div1(dxu, du, div_xu);
+div div2(dyu, du, div_yu);
+div div3(dxd, dd, div_xd);
+div div4(dyd, dd, div_yd);
 
 
 wire [31:0] dots_dist;

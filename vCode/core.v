@@ -1,4 +1,4 @@
-`include "Node.v"
+`include "node.v"
 `include "circular_shift.v"
 
 
@@ -19,12 +19,12 @@ module core #(
   output wire[node_contains * 32 -1:0] nodes_y
 );
 
-wire[2 * node_contains - 1:0] control_signal; 
-reg[2 * node_contains -1:0] control_signal_reg;
-wire[2 * node_contains -1:0] next_control_signal; 
+wire [node_contains :0] control_signal;
+reg [node_contains:0] control_signal_reg;
+wire [node_contains:0] next_control_signal;
 
 assign control_signal = control_signal_reg; 
-circular_shift #(2 * node_contains) cs(control_signal, next_control_signal); 
+circular_shift #(node_contains + 1) cs(control_signal, next_control_signal);
 
 wire [31:0] x_pos[node_contains - 1:0]; 
 wire [31:0] y_pos[node_contains - 1:0];
@@ -32,7 +32,6 @@ wire [31:0] new_x_pos[node_contains - 1:0];
 wire [31:0] new_y_pos[node_contains - 1:0];
 wire [31:0] clk_count;
 wire [node_contains -1:0] finish_signal;
-
 wire [node_contains -1:0] is_last_node_of_last_core;
 
 
@@ -45,13 +44,13 @@ generate
         assign nodes_x[(i + 1) * 32 - 1: i * 32] = x_pos[i];
         assign nodes_y[(i + 1) * 32 - 1: i * 32] = y_pos[i];
         
-        Node #(
+        node #(
             (i + 1) + (core_id -1) * 5
         ) node(
             clk,
             reset,
             control_signal[i],
-            control_signal[i + node_contains],
+            control_signal[node_contains],
             new_x_pos[i],
             new_y_pos[i],
             x_mouse, 
@@ -62,7 +61,7 @@ generate
 
         if (i == 0) begin
             if (core_id != 1) begin
-            EnforceConstraint enforce_constraint(
+            enforce_constraint e(
                 prev_core_last_x,
                 prev_core_last_y,
                 x_pos[i],
@@ -82,7 +81,7 @@ generate
 
 
         if (i > 0 && i < node_contains - 1) begin
-            EnforceConstraint enforce_constraint(
+            enforce_constraint e(
                 x_pos[i - 1],
                 y_pos[i - 1],
                 x_pos[i],
@@ -96,7 +95,7 @@ generate
         end
 
         if (i == node_contains - 1) begin
-            EnforceConstraint enforce_constraint(
+            enforce_constraint e(
                 x_pos[i - 1],
                 y_pos[i - 1],
                 x_pos[i],
@@ -125,14 +124,13 @@ always @(posedge clk) begin
 
     for(j = 0; j < node_contains; j = j + 1)begin
         $display("core:%d | node:%d -> y: %h, x: %h", core_id, j, y_pos[j], x_pos[j]);
-        // if(j == 0 && core_id == 2)begin
-            $display("|prev core %d x: %h, y: %h", core_id, prev_core_last_x, prev_core_last_y);
-            $display("new x : %h, y: %h", new_x_pos[j], new_y_pos[j]);
-        // end
+        if(j == 0 && core_id == 2)begin
+            $display("|prev : x: %h, y: %h", prev_core_last_x, prev_core_last_y);
+        end
     end
   
   if (control_signal[5])begin
-        
+        $display("new x : %h, y: %h", new_x_pos[4], new_y_pos[4]);
   end
     end else begin
         control_signal_reg <= 1;
