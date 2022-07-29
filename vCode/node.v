@@ -19,8 +19,8 @@ wire verlet_x, verlet_y, fix_const_x, fix_const_y;
 wire in_x_ff, in_y_ff;
 
 
-reg[31:0] x; reg [31:0] y; reg [31:0] px; reg [31:0] py;
-assign x_pos = x;
+reg[31:0] _x; reg [31:0] y; reg [31:0] px; reg [31:0] py;
+assign x_pos = _x;
 assign y_pos = y;
 
 integer base_x = 32'h000c8000;   
@@ -48,20 +48,20 @@ reg[31:0] node_id_reg =  (node_id - 1) << 12;
 
 assign py_sub_gravity = py - fix_gravity;
 
-FixedPointALU x_mult_2(x,fix_2, operation_mult, x_mult_2_out);
+FixedPointALU x_mult_2(_x,fix_2, operation_mult, x_mult_2_out);
 FixedPointALU twoX_sub_px(x_mult_2_out, px, operation_sub, next_x);
 FixedPointALU y_mult_2(y, fix_2, operation_mult, y_mult_2_out);
 FixedPointALU twoY_sub(y_mult_2_out, py_sub_gravity, operation_sub, next_y);
 FixedPointALU y_reset(_dist, node_id_reg, operation_mult, reset_y);
 
-FixedPointALU x_plus_mouse_effect(x, fix_mouse_power, operation_add, px_affected_add);
-FixedPointALU x_mines_mouse_effect(x, fix_mouse_power, operation_sub, px_affected_sub);
+FixedPointALU x_plus_mouse_effect(_x, fix_mouse_power, operation_add, px_affected_add);
+FixedPointALU x_mines_mouse_effect(_x, fix_mouse_power, operation_sub, px_affected_sub);
 
 mouse_distance_checker mdc(x_pos, y_pos, x_mouse, y_mouse, in_touch, direction);
 
 always @(posedge clk) begin: calc_verlet_x
     if (reset) begin
-        x <= base_x;
+        _x <= base_x;
         px <= base_x; 
         y <= reset_y;
         py <= reset_y;
@@ -73,17 +73,17 @@ always @(posedge clk) begin: calc_verlet_x
                 px <= px_affected_sub;
             end
         end else begin
-            px <= x; 
+            px <= _x; 
         end
         py <= y;
-        x <= next_x;
+        _x <= next_x;
         y <= next_y;
     end else if(fix_constraint_state)begin
         //$display("fix constraint of node %d -> new x: %h, new y:%h",node_id, x_fix_constraint, y_fix_constraint);
-        x <= x_fix_constraint;
+        _x <= x_fix_constraint;
         y <= y_fix_constraint;
     end else begin
-        x <= x; 
+        _x <= _x; 
         y <= y;
     end
  
