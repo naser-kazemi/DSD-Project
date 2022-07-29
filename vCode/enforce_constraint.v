@@ -1,7 +1,9 @@
 `include "div.v"
 
 
-module enforce_constraint (
+module enforce_constraint #( 
+    parameter id = 1
+) (
     input wire[31:0] up_x_pos,
     input wire[31:0] up_y_pos,
     input wire[31:0] x_pos,
@@ -106,6 +108,14 @@ FixedPointALU new_y(y_pos, sum_y_by_4, sub_op, y_enforced_constraints);
 //     $display("div_yu = %h", mult_yu);
 //     $display("div_xd = %h", mult_xd);
 //     $display("div_yd = %h", mult_yd);
+// end
+
+
+// initial begin
+//     #1020
+//     // if (core_id != 1) begin
+//         $display("id = %d | up_x_pos = %h, up_y_pos = %h", id, up_x_pos, up_y_pos);
+//     // end
 // end
 
 

@@ -59,43 +59,103 @@ generate
             y_pos[i]
             );
 
-        if (i == 0) begin
-            if (core_id != 1) begins
-            enforce_constraint e(
-                prev_core_last_x,
-                prev_core_last_y,
-                x_pos[i],
-                y_pos[i],
-                x_pos[i + 1],
-                y_pos[i + 1],
-                is_last_node_of_last_core[i],
-                new_x_pos[i],
-                new_y_pos[i]
-                );
-            end
-             else begin
+        if (core_id == 1) begin
+            if (i == 0) begin
                 assign new_x_pos[0] = x_pos[0];
                 assign new_y_pos[0] = y_pos[0];
-             end
-        end
-
-
-        if (i > 0 && i < node_contains - 1) begin
-            enforce_constraint e(
-                x_pos[i - 1],
-                y_pos[i - 1],
-                x_pos[i],
-                y_pos[i],
-                x_pos[i + 1],
-                y_pos[i + 1],
-                is_last_node_of_last_core[i],
-                new_x_pos[i],
-                new_y_pos[i]
+            end
+            else if (i < node_contains - 1) begin
+                enforce_constraint #(
+                    (i + 1) + (core_id -1) * 5
+                ) e(
+                    x_pos[i - 1],
+                    y_pos[i - 1],
+                    x_pos[i],
+                    y_pos[i],
+                    x_pos[i + 1],
+                    y_pos[i + 1],
+                    is_last_node_of_last_core[i],
+                    new_x_pos[i],
+                    new_y_pos[i]
                 );
+            end
         end
+
+        else begin
+            if (i == 0) begin
+                enforce_constraint #(
+                        (i + 1) + (core_id -1) * 5
+                    ) e(
+                        prev_core_last_x,
+                        prev_core_last_y,
+                        x_pos[i],
+                        y_pos[i],
+                        x_pos[i + 1],
+                        y_pos[i + 1],
+                        is_last_node_of_last_core[i],
+                        new_x_pos[i],
+                        new_y_pos[i]
+                );
+            end
+            else if (i < node_contains - 1) begin
+                enforce_constraint #(
+                    (i + 1) + (core_id -1) * 5
+                ) e(
+                    x_pos[i - 1],
+                    y_pos[i - 1],
+                    x_pos[i],
+                    y_pos[i],
+                    x_pos[i + 1],
+                    y_pos[i + 1],
+                    is_last_node_of_last_core[i],
+                    new_x_pos[i],
+                    new_y_pos[i]
+                );
+            end
+        end
+        
+
+        // if (i == 0) begin
+        //     if (core_id != 1) begin
+        //     enforce_constraint e(
+        //         prev_core_last_x,
+        //         prev_core_last_y,
+        //         x_pos[i],
+        //         y_pos[i],
+        //         x_pos[i + 1],
+        //         y_pos[i + 1],
+        //         is_last_node_of_last_core[i],
+        //         new_x_pos[i],
+        //         new_y_pos[i]
+        //         );
+        //     end
+        //      else begin
+        //         assign new_x_pos[0] = x_pos[0];
+        //         assign new_y_pos[0] = y_pos[0];
+        //      end
+        // end
+
+
+        // if (i > 0 && i < node_contains - 1) begin
+        //     enforce_constraint #(
+        //         (i + 1) + (core_id -1) * 5
+        //         ) e(
+        //         x_pos[i - 1],
+        //         y_pos[i - 1],
+        //         x_pos[i],
+        //         y_pos[i],
+        //         x_pos[i + 1],
+        //         y_pos[i + 1],
+        //         is_last_node_of_last_core[i],
+        //         new_x_pos[i],
+        //         new_y_pos[i]
+        //         );
+        // end
 
         if (i == node_contains - 1) begin
-            enforce_constraint e(
+            enforce_constraint #(
+                (i + 1) + (core_id -1) * 5
+            ) e(
                 x_pos[i - 1],
                 y_pos[i - 1],
                 x_pos[i],
@@ -107,11 +167,6 @@ generate
                 new_y_pos[i]
                 );
         end
-
-
-
-        
-
     end
 endgenerate
 
@@ -135,6 +190,9 @@ always @(posedge clk) begin
     end else begin
         control_signal_reg <= 1;
     end
+
+
+
 end
 
 
