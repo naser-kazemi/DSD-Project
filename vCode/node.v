@@ -79,10 +79,8 @@ always @(posedge clk) begin: calc_verlet_x
         _x <= next_x;
         y <= next_y;
     end else if(fix_constraint_state)begin
-        //$display("fix constraint of node %d -> new x: %h, new y:%h",node_id, x_fix_constraint, y_fix_constraint);
         _x <= x_fix_constraint;
         y <= y_fix_constraint;
-        // $display("id = %d | x = %h , y = %h", node_id, _x, y);
     end else begin
         _x <= _x; 
         y <= y;

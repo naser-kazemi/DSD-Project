@@ -30,8 +30,6 @@ wire [31:0] x_pos[node_contains - 1:0];
 wire [31:0] y_pos[node_contains - 1:0];
 wire [31:0] new_x_pos[node_contains - 1:0];
 wire [31:0] new_y_pos[node_contains - 1:0];
-// wire [31:0] clk_count;
-// wire [node_contains -1:0] finish_signal;
 wire [node_contains -1:0] is_last_node_of_last_core;
 
 
@@ -115,43 +113,6 @@ generate
         end
         
 
-        // if (i == 0) begin
-        //     if (core_id != 1) begin
-        //     enforce_constraint e(
-        //         prev_core_last_x,
-        //         prev_core_last_y,
-        //         x_pos[i],
-        //         y_pos[i],
-        //         x_pos[i + 1],
-        //         y_pos[i + 1],
-        //         is_last_node_of_last_core[i],
-        //         new_x_pos[i],
-        //         new_y_pos[i]
-        //         );
-        //     end
-        //      else begin
-        //         assign new_x_pos[0] = x_pos[0];
-        //         assign new_y_pos[0] = y_pos[0];
-        //      end
-        // end
-
-
-        // if (i > 0 && i < node_contains - 1) begin
-        //     enforce_constraint #(
-        //         (i + 1) + (core_id -1) * 5
-        //         ) e(
-        //         x_pos[i - 1],
-        //         y_pos[i - 1],
-        //         x_pos[i],
-        //         y_pos[i],
-        //         x_pos[i + 1],
-        //         y_pos[i + 1],
-        //         is_last_node_of_last_core[i],
-        //         new_x_pos[i],
-        //         new_y_pos[i]
-        //         );
-        // end
-
         if (i == node_contains - 1) begin
             enforce_constraint #(
                 (i + 1) + (core_id -1) * 5
@@ -175,18 +136,7 @@ endgenerate
 always @(posedge clk) begin
     if(!reset) begin
     control_signal_reg <= next_control_signal;
-    // $display("control signal : %d", control_signal);
 
-//     for(j = 0; j < node_contains; j = j + 1)begin
-//         $display("core:%d | node:%d -> y: %h, x: %h", core_id, j, y_pos[j], x_pos[j]);
-//         if(j == 0 && core_id == 2)begin
-//             $display("|prev : x: %h, y: %h", prev_core_last_x, prev_core_last_y);
-//         end
-//     end
-  
-//   if (control_signal[5])begin
-//         $display("new x : %h, y: %h", new_x_pos[4], new_y_pos[4]);
-//   end
     end else begin
         control_signal_reg <= 1;
     end
