@@ -20,9 +20,21 @@ rope #(4) r(
 
 initial
 begin
+    mouse_x = 32'h00000000;
+    mouse_y = 32'h00000000;
     reset = 1;
     #10;
     reset = 0; 
+    // #1010
+
+    mouse_x = 32'h000ca000;
+    mouse_y = 32'h00032000;
+
+    #1010
+
+    mouse_x = 32'h00000000;
+    mouse_y = 32'h00000000;
+
     #1010;
 
     // $display("node_x = %h ", nodes_x[189:180]);
