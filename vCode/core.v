@@ -30,8 +30,8 @@ wire [31:0] x_pos[node_contains - 1:0];
 wire [31:0] y_pos[node_contains - 1:0];
 wire [31:0] new_x_pos[node_contains - 1:0];
 wire [31:0] new_y_pos[node_contains - 1:0];
-wire [31:0] clk_count;
-wire [node_contains -1:0] finish_signal;
+// wire [31:0] clk_count;
+// wire [node_contains -1:0] finish_signal;
 wire [node_contains -1:0] is_last_node_of_last_core;
 
 
@@ -60,7 +60,7 @@ generate
             );
 
         if (i == 0) begin
-            if (core_id != 1) begin
+            if (core_id != 1) begins
             enforce_constraint e(
                 prev_core_last_x,
                 prev_core_last_y,
@@ -116,7 +116,7 @@ generate
 endgenerate
 
 
-integer j;
+// integer j;
 always @(posedge clk) begin
     if(!reset) begin
     control_signal_reg <= next_control_signal;

@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
 
 `include "rope.v"
-`include "slow_clk.v"
+// `include "slow_clk.v"
 
 module graphics(
     input wire video_on,
-	// input wire clk, reset,
+	input wire clk, reset,
 	// input wire u, d, l, r,
 	input [9:0] mouse_x, mouse_y,
 	input wire [9:0] pix_x, pix_y,
@@ -13,16 +13,16 @@ module graphics(
 	output [2:0] graph_rgb
 );
 	
-	localparam RADIUS = 5;
+	localparam RADIUS = 10;
 	
 	localparam CIRCLE_COLOR = 3'b101; // magenta
 	localparam BACKGROUND_COLOR = 3'b010; // green
 	
 	// signal declaration
-	reg [9:0] center_x, center_y;
+	// reg [9:0] center_x, center_y;
 
 	// next state regs
-	reg [9:0] center_x_next, center_y_next;
+	// reg [9:0] center_x_next, center_y_next;
 
 
 	wire [200 - 1:0] nodes_x;
@@ -39,10 +39,10 @@ module graphics(
 		end
 	endgenerate
 
-	wire slow;
-	slow_clk sc(clk, reset, slow);
+	// wire slow;
+	// slow_clk sc(clk, reset, slow);
 
-	rope rp(slow, reset, mouse_x, mouse_y, nodes_x, nodes_y);
+	rope rp(clk, reset, mouse_x, mouse_y, nodes_x, nodes_y);
 	
 	// sequential logic
 	// always @(posedge clk)
@@ -75,24 +75,24 @@ module graphics(
 	//       center_x_next = center_x + 1;
 	// end
 
-	reg clk, reset; 
-	// reg[9:0] mouse_x, mouse_y; 
-	// wire [4 * 5 * 10 - 1:0] nodes_x, nodes_y;
-	initial clk = 1'b0; 
-	always #5 clk = ~clk;
+	// reg clk, reset; 
+	// // reg[9:0] mouse_x, mouse_y; 
+	// // wire [4 * 5 * 10 - 1:0] nodes_x, nodes_y;
+	// initial clk = 1'b0; 
+	// always #5 clk = ~clk;
 
-	initial
-	begin
-		reset = 1;
-		#10;
-		reset = 0; 
-		#1010;
+	// initial
+	// begin
+	// 	reset = 1;
+	// 	#10;
+	// 	reset = 0; 
+	// 	#1010;
 
-		$display("node_x = %h ", nodes_x[19 * 10 + 9:19 * 10]);
+	// 	$display("node_x = %h ", nodes_x[19 * 10 + 9:19 * 10]);
 
-		$finish;
+	// 	$finish;
 
-	end
+	// end
 
 
 
