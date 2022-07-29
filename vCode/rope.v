@@ -85,14 +85,6 @@ generate
     end
 endgenerate
 
-// integer s;
-// initial begin
-//     #1020
-//     for (s = 0; s < 4; s = s + 1) begin 
-//         $display("core_x_pos = %h", core_x_pos[s][159:128]);
-//     end
-// end
-
 
 
 

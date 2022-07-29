@@ -1,12 +1,10 @@
 `timescale 1ns / 1ps
 
 `include "rope.v"
-// `include "slow_clk.v"
 
 module graphics(
     input wire video_on,
 	input wire clk, reset,
-	// input wire u, d, l, r,
 	input [9:0] mouse_x, mouse_y,
 	input wire [9:0] pix_x, pix_y,
 	
@@ -17,12 +15,6 @@ module graphics(
 	
 	localparam CIRCLE_COLOR = 3'b101; // magenta
 	localparam BACKGROUND_COLOR = 3'b010; // green
-	
-	// signal declaration
-	// reg [9:0] center_x, center_y;
-
-	// next state regs
-	// reg [9:0] center_x_next, center_y_next;
 
 
 	wire [200 - 1:0] nodes_x;
