@@ -1,4 +1,4 @@
-`include "enforce_constraint.v"
+`include "enforce_constraint_unit.v"
 
 module enforce_constraint_tb;
 
@@ -9,7 +9,7 @@ wire [31:0] y_enforced_constraints;
 reg is_last ;
 
 
-enforce_constraint ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 1'b0,
+enforce_constraint_unit ec(up_x_pos, up_y_pos, x_pos, y_pos, down_x_pos, down_y_pos, 1'b0,
                 x_enforced_constraints, y_enforced_constraints);
 
 

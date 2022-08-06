@@ -1,5 +1,4 @@
-`include "FixedPointALU.v"
-`include "Abs.v"
+`include "mult_fix_point.v"
 
 module div #( 
     parameter N = 32
@@ -9,11 +8,10 @@ module div #(
     output [N - 1:0] out
 );
 
-wire [31:0] abs_a, abs_b;
+wire [N - 1:0] abs_a, abs_b;
 
-Abs abs1(a, abs_a);
-Abs abs2(b, abs_b);
-
+assign abs_a = a[N-1]? -a: a;
+assign abs_b = b[N-1]? -b: b;
 
 wire [N - 1:0] b_2, b_15, b_67, b_05;
 
@@ -27,10 +25,10 @@ assign fix_05 = 32'h00000800;
 wire [1:0] op;
 assign op = 2'b10;
 
-FixedPointALU mult1(abs_b, fix_2, op, b_2);
-FixedPointALU mult2(abs_b, fix_15, op, b_15);
-FixedPointALU mult3(abs_b, fix_67, op, b_67);
-FixedPointALU mult4(abs_b, fix_05, op, b_05);
+mult_fix_point mult1(abs_b, fix_2, b_2);
+mult_fix_point mult2(abs_b, fix_15, b_15);
+mult_fix_point mult3(abs_b, fix_67, b_67);
+mult_fix_point mult4(abs_b, fix_05, b_05);
 
 wire [N-1:0] div, neg_div;
 
