@@ -18,14 +18,14 @@ wire [2*N-1:0]	f_result;		//	Multiplication by 2 values of N bits requires a
                                 
 wire [N-1:0]   multiplicand;
 wire [N-1:0]	multiplier;
-wire [N-1:0]    a_2cmp, b_2cmp;
+wire [N-1:0]    in1_2cmp, in2_2cmp;
 wire [N-2:0]    quantized_result,quantized_result_2cmp;
 
 assign in1_2cmp = {~in_1[N-1],~in_1[N-2:0]+ 1'b1};  //2's complement of a {(N-1){1'b1}} - 
 assign in2_2cmp = {~in_2[N-1],~in_2[N-2:0]+ 1'b1};  //2's complement of b  {(N-1){1'b1}} - 
 
-assign multiplicand = (in_1[N-1]) ? a_2cmp : in1_2cmp;              
-assign multiplier   = (in_2[N-1]) ? b_2cmp : in2_2cmp;
+assign multiplicand = (in_1[N-1]) ? in1_2cmp : in_1;              
+assign multiplier   = (in_2[N-1]) ? in2_2cmp : in_2;
 
 
 assign f_result = multiplicand[N-2:0] * multiplier[N-2:0];  //We remove the sign bit for multiplication

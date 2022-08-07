@@ -27,11 +27,7 @@ initial begin
 
 
     #50
-
-    $display("x_enforced_constraints = %h \t y_enforced_constraints = %h",
-        x_enforced_constraints, y_enforced_constraints);
-
-    
+    $display("%h, %h", x_enforced_constraints, y_enforced_constraints);
 end
 
 
