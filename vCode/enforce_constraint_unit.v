@@ -25,19 +25,19 @@ wire [width-1:0] abs_dxu, abs_dyu;
 assign abs_dxu = dxu[width-1] ? -dxu: dxu;
 assign abs_dyu = dyu[width-1] ? -dyu: dyu;
 
-assign du = abs_dxu + abs_dyu;
+assign du = abs_dxu + abs_dyu; //
 
 
 wire [width-1:0] temp_dxd, temp_dyd, temp_dd;
 
-assign sub_xd = x_pos - down_x_pos;
-assign sub_yd = y_pos - down_y_pos;
+assign temp_dxd = x_pos - down_x_pos;
+assign temp_dyd = y_pos - down_y_pos;
 
 wire [width-1:0] abs_dxd, abs_dyd;
 
 assign abs_dxd = temp_dxd[width-1]? -temp_dxd: temp_dxd;
 assign abs_dyd = temp_dyd[width-1]? -temp_dyd: temp_dyd;
-assign temp_dd = abs_dxd + abs_dyd;
+assign temp_dd = abs_dxd + abs_dyd; //
 
 wire [width-1:0] dxd, dyd, dd;
 assign dxd = !is_last ? temp_dxd : dxu;
