@@ -1,6 +1,3 @@
-// Author: Saman Mohseni
-// Email: cloud.saman@gmail.com
-
 #include <verilated.h>          // defines common routines
 #include <GL/glut.h>
 #include <thread>
