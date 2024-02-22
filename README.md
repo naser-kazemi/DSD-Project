@@ -10,7 +10,7 @@
 
 ## Introduction
 
-The purpose of this project is to develop an FPGA, capable of simulating ropes movement via verlet integration. The stack of the project is as follows:
+The purpose of this project is to develop an FPGA synthesizable program capable of simulating ropes movement via verlet integration. The stack of the project is as follows:
  
 - **Hardware**: FPGA
 - **Simulation**: Verilator 
