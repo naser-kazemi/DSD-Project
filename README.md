@@ -1,13 +1,6 @@
 # Rope Simulation
 
 
-<div align="center">
-
-![logo](./logo.png)
-
-</div>
-
-
 ## Introduction
 
 The purpose of this project is to develop an FPGA synthesizable program capable of simulating ropes movement via verlet integration. The stack of the project is as follows:
